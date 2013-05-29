@@ -54,6 +54,8 @@
 %define install_vdso 0
 %endif
 
+%define disable_pax_plugins n
+
 Name:           kernel-@FLAVOR@
 Summary:        @SUMMARY@
 License:        GPL-2.0
@@ -168,6 +170,10 @@ BuildArch:      i686
 # /usr/src/linux-obj/<arch> symlink to i586.
 %define kmp_target_cpu i586
 %endif
+%endif
+
+%if %{disable_pax_plugins} == "n"
+BuildRequires: gcc-plugin-devel gcc-c++ gmp-devel
 %endif
 
 # These files are found in the kernel-source package:
@@ -336,6 +342,11 @@ fi
 %endif
 
 MAKE_ARGS="$MAKE_ARGS %{?_smp_mflags} -C .. O=$PWD"
+
+%if %{disable_pax_plugins} != "n"
+MAKE_ARGS="$MAKE_ARGS DISABLE_PAX_PLUGINS=y"
+%endif
+
 if test -e %_sourcedir/TOLERATE-UNKNOWN-NEW-CONFIG-OPTIONS; then
     yes '' | make oldconfig $MAKE_ARGS
 else
@@ -386,6 +397,10 @@ MAKE_ARGS="$MAKE_ARGS %{?_smp_mflags}"
 %if %CONFIG_KMSG_IDS == "y"
     chmod +x ../scripts/kmsg-doc
     MAKE_ARGS="$MAKE_ARGS D=2"
+%endif
+
+%if %{disable_pax_plugins} != "n"
+MAKE_ARGS="$MAKE_ARGS DISABLE_PAX_PLUGINS=y"
 %endif
 
 while true; do
