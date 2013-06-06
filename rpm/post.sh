@@ -50,6 +50,9 @@ if [ -f /etc/fstab -a ! -e /.buildenv ] ; then
     if [ @FLAVOR@ = rt ]; then
 	    default=force-default
     fi
+    if [ @FLAVOR@ = grsec ]; then
+	    default=force-default
+    fi
     if [ -e /boot/$initrd -o ! -e /lib/modules/@KERNELRELEASE@-@FLAVOR@ ] && \
        run_bootloader ; then
        [ -e /boot/$initrd ] || initrd=
