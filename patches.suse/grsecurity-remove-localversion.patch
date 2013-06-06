@@ -1,0 +1,13 @@
+From: David Sterba <dsterba@suse.cz>
+Date: Wed, 29 May 2013 23:49:29 +0200
+Subject: [PATCH] remove localversion-grsec
+Patch-mainline: no
+
+Breaks rpm build checks.
+
+Signed-off-by: David Sterba <dsterba@suse.cz>
+---
+--- linux-3.9-grsec.orig/localversion-grsec
++++ /dev/null
+@@ -1 +0,0 @@
+--grsec
