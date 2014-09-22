@@ -98,3 +98,12 @@ The Linux kernel for booting the zfcpdump process on IBM System Z.
 This kernel should only be used by the s390-tools package. This kernel
 should not be installed as a regular booting kernel.
 
+=== kernel-grsec-desktop ===
+Kernel with grsecurity.net patches enabled. Config based on -desktop flavor.
+
+=== kernel-grsec-server ===
+Kernel with grsecurity.net patches enabled. Config based on -default flavor.
+
+=== kernel-grsec-guest-kvm ===
+Kernel with grsecurity.net patches enabled. Config based on -default flavor,
+options tuned for virtualized KVM guest.
