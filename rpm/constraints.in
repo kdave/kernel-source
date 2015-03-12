@@ -6,7 +6,7 @@
     </conditions>
     <hardware>
       <disk>
-        <size unit="G">25</size>
+        <size unit="G">15</size>
       </disk>
       <memory>
         <size unit="G">2</size>
@@ -60,7 +60,7 @@
 @BINARY_PACKAGES_XML@
     </conditions>
     <hardware>
-      <processors>8</processors>
+      <processors>4</processors>
     </hardware>
   </overwrite>
 
