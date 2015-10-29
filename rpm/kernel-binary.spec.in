@@ -173,7 +173,12 @@ BuildArch:      i686
 %endif
 
 %if %{disable_pax_plugins} == "n"
-BuildRequires: gcc-plugin-devel gcc-c++ gmp-devel
+%if %{suse_version} >= 1330
+BuildRequires: gcc-devel
+%else
+BuildRequires: gcc-plugin-devel
+%endif
+BuildRequires: gcc-c++ gmp-devel mpc-devel
 %endif
 
 # These files are found in the kernel-source package:
