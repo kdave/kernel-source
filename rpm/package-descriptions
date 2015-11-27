@@ -107,3 +107,7 @@ Kernel with grsecurity.net patches enabled. Config based on -default flavor.
 === kernel-grsec-guest-kvm ===
 Kernel with grsecurity.net patches enabled. Config based on -default flavor,
 options tuned for virtualized KVM guest.
+
+=== kernel-grsec-guest-kvm-mini ===
+Kernel with grsecurity.net patches enabled. Config based on -default flavor,
+options tuned for virtualized KVM guest and minimized by localmodconfig.
