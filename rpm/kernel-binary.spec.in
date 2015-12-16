@@ -75,6 +75,7 @@ BuildRequires:  libopenssl-devel
 BuildRequires:  modutils
 # Used to sign the kernel in the buildservice
 BuildRequires:  openssl
+BuildRequires:  openssl-devel
 BuildRequires:  pesign-obs-integration
 # for objtool
 BuildRequires:  libelf-devel
