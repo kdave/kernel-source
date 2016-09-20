@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86_64 4.7.0 Kernel Configuration
+# Linux/x86_64 4.7.4 Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -6990,7 +6990,7 @@ CONFIG_GRKERNSEC_DENYUSB=y
 # Sysctl Support
 #
 CONFIG_GRKERNSEC_SYSCTL=y
-# CONFIG_GRKERNSEC_SYSCTL_DISTRO is not set
+CONFIG_GRKERNSEC_SYSCTL_DISTRO=y
 CONFIG_GRKERNSEC_SYSCTL_ON=y
 
 #

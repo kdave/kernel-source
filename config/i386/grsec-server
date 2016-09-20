@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/i386 4.7.0 Kernel Configuration
+# Linux/i386 4.7.4 Kernel Configuration
 #
 # CONFIG_64BIT is not set
 CONFIG_X86_32=y
@@ -7254,7 +7254,7 @@ CONFIG_GRKERNSEC_DENYUSB=y
 # Sysctl Support
 #
 CONFIG_GRKERNSEC_SYSCTL=y
-# CONFIG_GRKERNSEC_SYSCTL_DISTRO is not set
+CONFIG_GRKERNSEC_SYSCTL_DISTRO=y
 CONFIG_GRKERNSEC_SYSCTL_ON=y
 
 #
