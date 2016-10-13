@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.7.4 Kernel Configuration
+# Linux/arm 4.7.7 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_ARM_HAS_SG_CHAIN=y
@@ -6320,6 +6320,7 @@ CONFIG_PAX_MEMORY_STRUCTLEAK=y
 CONFIG_PAX_REFCOUNT=y
 CONFIG_PAX_USERCOPY=y
 CONFIG_PAX_SIZE_OVERFLOW=y
+CONFIG_PAX_SIZE_OVERFLOW_EXTRA=y
 CONFIG_PAX_LATENT_ENTROPY=y
 
 #
