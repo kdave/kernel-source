@@ -1,0 +1,15 @@
+---
+ Makefile |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/Makefile
++++ b/Makefile
+@@ -671,7 +671,7 @@ endif
+ # until after .config has been reprocessed, in the prepare-compiler-check
+ # target.
+ ifdef CONFIG_CC_STACKPROTECTOR_REGULAR
+-  stackp-flag := -fstack-protector
++  stackp-flag := -fstack-protector --param ssp-buffer-size=4
+   stackp-name := REGULAR
+ else
+ ifdef CONFIG_CC_STACKPROTECTOR_STRONG
