@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.8.6 Kernel Configuration
+# Linux/arm 4.8.8 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_ARM_HAS_SG_CHAIN=y
@@ -8311,6 +8311,9 @@ CONFIG_PAX_REFCOUNT=y
 CONFIG_PAX_USERCOPY=y
 CONFIG_PAX_SIZE_OVERFLOW=y
 CONFIG_PAX_SIZE_OVERFLOW_EXTRA=y
+CONFIG_PAX_INITIFY=y
+CONFIG_PAX_INITIFY_VERBOSE=y
+CONFIG_PAX_LATENT_ENTROPY=y
 
 #
 # Memory Protections
