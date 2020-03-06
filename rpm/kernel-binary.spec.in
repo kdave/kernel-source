@@ -150,7 +150,7 @@ BuildRequires:  dwarfextract
 BuildRequires:  u-boot-tools
 %endif
 
-Obsoletes:      microcode_ctl
+Obsoletes:      microcode_ctl >= 0.1
 
 # Force bzip2 instead of lzma compression to
 # 1) allow install on older dist versions, and
@@ -1115,7 +1115,9 @@ rm -f "/var/run/rpm-$nvr-modules"
 %files -n @KMP_NAME@-%build_flavor -f @KMP_NAME@.files
 %defattr(-, root, root)
 # END KMP
-%endif # %CONFIG_SUSE_KERNEL_SUPPORTED
-%endif # %CONFIG_MODULES
+%# %CONFIG_SUSE_KERNEL_SUPPORTED
+%endif
+%# %CONFIG_MODULES
+%endif
 
 %changelog
