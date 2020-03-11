@@ -1079,9 +1079,9 @@ rm -f "/var/run/rpm-$nvr-modules"
 %files -n @KMP_NAME@-%build_flavor -f @KMP_NAME@.files
 %defattr(-, root, root)
 # END KMP
-%# %CONFIG_SUSE_KERNEL_SUPPORTED
+# %CONFIG_SUSE_KERNEL_SUPPORTED
 %endif
-%# %CONFIG_MODULES
+# %CONFIG_MODULES
 %endif
 
 %changelog
