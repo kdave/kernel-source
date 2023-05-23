@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/i386 6.1.26 Kernel Configuration
+# Linux/i386 6.1.29 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (scripts/dummy-tools/gcc)"
 CONFIG_CC_IS_GCC=y
@@ -7478,6 +7478,7 @@ CONFIG_SND_SOC_RT1019=m
 CONFIG_SND_SOC_RT1308=m
 # CONFIG_SND_SOC_RT1308_SDW is not set
 # CONFIG_SND_SOC_RT1316_SDW is not set
+# CONFIG_SND_SOC_RT1318_SDW is not set
 CONFIG_SND_SOC_RT5514=m
 CONFIG_SND_SOC_RT5514_SPI=m
 # CONFIG_SND_SOC_RT5514_SPI_BUILTIN is not set
