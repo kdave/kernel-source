@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 6.14.7 Kernel Configuration
+# Linux/arm 6.14.9 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (scripts/dummy-tools/gcc)"
 CONFIG_CC_IS_GCC=y
@@ -7678,7 +7678,6 @@ CONFIG_DRM_VIRTIO_GPU_KMS=y
 CONFIG_DRM_MSM=m
 CONFIG_DRM_MSM_GPU_STATE=y
 # CONFIG_DRM_MSM_GPU_SUDO is not set
-# CONFIG_DRM_MSM_VALIDATE_XML is not set
 CONFIG_DRM_MSM_MDSS=y
 CONFIG_DRM_MSM_MDP4=y
 CONFIG_DRM_MSM_MDP5=y
@@ -10299,6 +10298,7 @@ CONFIG_IPQ_APSS_PLL=m
 # CONFIG_IPQ_APSS_6018 is not set
 CONFIG_IPQ_CMN_PLL=m
 CONFIG_IPQ_GCC_4019=m
+# CONFIG_IPQ_GCC_5018 is not set
 # CONFIG_IPQ_GCC_6018 is not set
 CONFIG_IPQ_GCC_806X=m
 CONFIG_IPQ_LCC_806X=m
