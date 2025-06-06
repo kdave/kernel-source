@@ -1,0 +1,3295 @@
+From: David Sterba <dsterba@suse.cz>
+Subject: Linux 6.14.10
+Patch-mainline: 6.14.10
+Git-commit: 178524b365b8902d17638f936da0c5fb26c28c8a
+Git-commit: cb7e06e9736d73007dc8dab7b353733bb37df86b
+Git-commit: 725c5d0b919a6a53267670ae061d92876a73363d
+Git-commit: bf53354e7c9f1a94a884d66821cdd7aa8e31a5e5
+Git-commit: 2164731aa75fc3aaa2a04d9ddb819511a922ef75
+Git-commit: 733a47c3c19beb42a07a65af4074b59489359cf7
+Git-commit: b6b3d8aeab9e6e8384c71908ff46f0f3c5b997d9
+Git-commit: e8fd089329f1e353d7b65894084596071c8a1263
+Git-commit: ae24f6318bbd54b12e928108ea99cf3471ad9d0b
+Git-commit: 28ba9d46536717739be8de9e879d43dd7edf25ca
+Git-commit: 622b32ad3eb311acf55ac0079e6ba9edd70f6f99
+Git-commit: 06d3503665bc00c2c44145b89993ccda76c64687
+Git-commit: 0a20edf6e24df21e7b46e8b2a5ab4876aefb736e
+Git-commit: 9c2cee0039220dab3ad24b237e6593128ca19a78
+Git-commit: 38ef594fe59770770506ec3cdbae07a2f36995c6
+Git-commit: 4235aa3629dc1ea851fb02a1cdfb0f91738b98e3
+Git-commit: c53f23f7075c9f63f14d7ec8f2cc3e33e118d986
+Git-commit: b90b0bad5f6a727242b24760ca97bdfa36bbdc57
+Git-commit: b96feaaa0fda1e3871b438143c3446954b32d3a7
+Git-commit: e411fb62f9474e8186acbca1b8e0188aa3da411d
+Git-commit: bde2474dbff89e7a7532f08c230f14374d3dcfbe
+Git-commit: bb7f5af87a099819661e40ead9dbb26f5970066b
+Git-commit: 051c26a0851fd8e154154d989c6dc9dc202f4cc0
+Git-commit: 8c1eb82cd36db5d1c48877e1a6488ab0d0a852ae
+Git-commit: cea2bda9d89b32b13acc03bea5755e8a00117f90
+Git-commit: b03b33957a5b44ec6e2f7f4f76043db1ef7d120f
+Git-commit: fc24595253c4b4707ccc4017199f48aff0dddf98
+Git-commit: 536f763c0e611854ddcc5d49f779b3024ad426e1
+Git-commit: 53b37363eff91da17bbf2b3cf87ecc0e1611fe55
+Git-commit: 2aa63f42a39933475b939d17270af83b990e44d4
+Git-commit: faf12ba4c3d2be3cf7fe5cc8b5acb3f83084048c
+Git-commit: c6dba79b3cab1a2a722b0f302e99e83233fac458
+Git-commit: fe02312182e83ac564ecf858379821b17f5f8cf8
+Git-commit: 4e38eaaabfb7fffbb371a51150203e19eee5d70e
+Git-commit: b7555e1442149c51665155b3bef7be501651f34c
+Git-commit: 5ed03581c4eda6d6392610a3dcb3eaa77753097a
+Git-commit: 432253577845a3bfe19dc6431769bd6f9ea7db6e
+Git-commit: f3bf35188d9fdcd853ce8727c167e17b2a9a8b36
+Git-commit: 65cc790ab5830092a928c7e28b5190187e8075f7
+Git-commit: eec493cd33e8c7a90ed0d9e3964111c7d88e9ea9
+Git-commit: 3a0df30899466beb56b241f7b20b33987bca6439
+Git-commit: 1fb3831cf8f245d6c041106ecc973ef9057ea49d
+Git-commit: 057ae3217b2c506bc5098ee14af737b56359049a
+Git-commit: cbedca299943840a596bc00febdbbd1e7182b1a2
+Git-commit: b5ae1d4b2d9411705027f98f30e2d5601f039869
+Git-commit: ae0d7845c2bfee08985368f4e3e2cbd2597dc566
+Git-commit: 115f3b8e5bd04925380519fc82d5f706d7c1c3c0
+Git-commit: 3834f963d089ce5cd3326c8d0f15bf53c71dd52e
+Git-commit: 1b301f8b9f4f50a6cede04be77e80b6a3ff2b62f
+Git-commit: ae664ca09072857349857530dce12e09c048b12d
+Git-commit: d1a576cb0025adfe1f9ae683e9c832f1a731229d
+Git-commit: a4927dd933f7dcc7b0e494eac27c3a8ab49822e9
+Git-commit: 85e63793030f037d69b0ad80f69e56af4bf301bc
+Git-commit: e95b57a6e5dce84cd9b22da3620f26a7a0bc28a5
+Git-commit: 945794884d6b68b39fa23d37f124cddfc8d20a00
+Git-commit: 2879db26b6f5c873ad663067bd65eb213c01f41e
+Git-commit: 952900776a5b671a6efbc532a7e63fc9ff1a1b80
+Git-commit: 5f91aa92f5cf4c4deefe6b58cf716bd79e151c54
+Git-commit: 34167b4853bb033536579f698dbc05f8b6a8dfbc
+Git-commit: 5a26f18a296a9f7718f2d68721065262af59b0d1
+Git-commit: dcc6f5a50b1e8582e14f573903f5d977a826d2f6
+Git-commit: 536f0e0e91a49babce3767df3a7578889066e6dc
+Git-commit: 2d0d9178012acd078889def477831d51bcd1f1f6
+Git-commit: df6e43e5a0d78f0a0da53d28f3134d2855811812
+Git-commit: e9b4b1df6ad765f677495c788cd9b97a6baad377
+Git-commit: 22961b39c3c055d0c34dbce391f78c905a4ddce1
+Git-commit: 09e5b5f0bcac29dfa34e4394eeec4186a6d0de3a
+Git-commit: d35fa24facc89ce3c3024947b374c5bbeee476dc
+Git-commit: 1a9ed77d06d9f1d1f0a6ac1a8ed731fd5b8cdb9b
+Git-commit: 5458d98e10ea69919b0a7c991e0b44a81a5706a3
+Git-commit: b57e3a82815e5e7e96d3a35cc8936eeb676ea6d8
+Git-commit: 4d1eb6f7ddc40a90439476080d1f083d6769c9b2
+Git-commit: ff14266f44a0ae475551ec6a97e0cf452d1afb68
+Git-commit: 5b224ac06d459b401f167882faeb5c49770247eb
+
+Signed-off-by: David Sterba <dsterba@suse.cz>
+---
+diff --git a/Makefile b/Makefile
+index 884279eb952d..0f3aad52b3de 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ # SPDX-License-Identifier: GPL-2.0
+ VERSION = 6
+ PATCHLEVEL = 14
+-SUBLEVEL = 9
++SUBLEVEL = 10
+ EXTRAVERSION =
+ NAME = Baby Opossum Posse
+ 
+diff --git a/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi b/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi
+index 51c6e19e40b8..7d9394a04302 100644
+--- a/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi
++++ b/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi
+@@ -222,9 +222,9 @@ i3c1: i3c@10da1000 {
+ 			status = "disabled";
+ 		};
+ 
+-		gpio0: gpio@ffc03200 {
++		gpio0: gpio@10c03200 {
+ 			compatible = "snps,dw-apb-gpio";
+-			reg = <0xffc03200 0x100>;
++			reg = <0x10c03200 0x100>;
+ 			#address-cells = <1>;
+ 			#size-cells = <0>;
+ 			resets = <&rst GPIO0_RESET>;
+diff --git a/arch/arm64/boot/dts/qcom/ipq9574.dtsi b/arch/arm64/boot/dts/qcom/ipq9574.dtsi
+index 942290028972..3c02351fbb15 100644
+--- a/arch/arm64/boot/dts/qcom/ipq9574.dtsi
++++ b/arch/arm64/boot/dts/qcom/ipq9574.dtsi
+@@ -378,6 +378,8 @@ cryptobam: dma-controller@704000 {
+ 			interrupts = <GIC_SPI 207 IRQ_TYPE_LEVEL_HIGH>;
+ 			#dma-cells = <1>;
+ 			qcom,ee = <1>;
++			qcom,num-ees = <4>;
++			num-channels = <16>;
+ 			qcom,controlled-remotely;
+ 		};
+ 
+diff --git a/arch/arm64/boot/dts/qcom/sa8775p.dtsi b/arch/arm64/boot/dts/qcom/sa8775p.dtsi
+index 3394ae2d1300..2329460b2103 100644
+--- a/arch/arm64/boot/dts/qcom/sa8775p.dtsi
++++ b/arch/arm64/boot/dts/qcom/sa8775p.dtsi
+@@ -2413,6 +2413,8 @@ cryptobam: dma-controller@1dc4000 {
+ 			interrupts = <GIC_SPI 272 IRQ_TYPE_LEVEL_HIGH>;
+ 			#dma-cells = <1>;
+ 			qcom,ee = <0>;
++			qcom,num-ees = <4>;
++			num-channels = <20>;
+ 			qcom,controlled-remotely;
+ 			iommus = <&apps_smmu 0x480 0x00>,
+ 				 <&apps_smmu 0x481 0x00>;
+@@ -4903,15 +4905,7 @@ compute-cb@1 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <1>;
+ 						iommus = <&apps_smmu 0x2141 0x04a0>,
+-							 <&apps_smmu 0x2161 0x04a0>,
+-							 <&apps_smmu 0x2181 0x0400>,
+-							 <&apps_smmu 0x21c1 0x04a0>,
+-							 <&apps_smmu 0x21e1 0x04a0>,
+-							 <&apps_smmu 0x2541 0x04a0>,
+-							 <&apps_smmu 0x2561 0x04a0>,
+-							 <&apps_smmu 0x2581 0x0400>,
+-							 <&apps_smmu 0x25c1 0x04a0>,
+-							 <&apps_smmu 0x25e1 0x04a0>;
++							 <&apps_smmu 0x2181 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -4919,15 +4913,7 @@ compute-cb@2 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <2>;
+ 						iommus = <&apps_smmu 0x2142 0x04a0>,
+-							 <&apps_smmu 0x2162 0x04a0>,
+-							 <&apps_smmu 0x2182 0x0400>,
+-							 <&apps_smmu 0x21c2 0x04a0>,
+-							 <&apps_smmu 0x21e2 0x04a0>,
+-							 <&apps_smmu 0x2542 0x04a0>,
+-							 <&apps_smmu 0x2562 0x04a0>,
+-							 <&apps_smmu 0x2582 0x0400>,
+-							 <&apps_smmu 0x25c2 0x04a0>,
+-							 <&apps_smmu 0x25e2 0x04a0>;
++							 <&apps_smmu 0x2182 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -4935,15 +4921,7 @@ compute-cb@3 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <3>;
+ 						iommus = <&apps_smmu 0x2143 0x04a0>,
+-							 <&apps_smmu 0x2163 0x04a0>,
+-							 <&apps_smmu 0x2183 0x0400>,
+-							 <&apps_smmu 0x21c3 0x04a0>,
+-							 <&apps_smmu 0x21e3 0x04a0>,
+-							 <&apps_smmu 0x2543 0x04a0>,
+-							 <&apps_smmu 0x2563 0x04a0>,
+-							 <&apps_smmu 0x2583 0x0400>,
+-							 <&apps_smmu 0x25c3 0x04a0>,
+-							 <&apps_smmu 0x25e3 0x04a0>;
++							 <&apps_smmu 0x2183 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -4951,15 +4929,7 @@ compute-cb@4 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <4>;
+ 						iommus = <&apps_smmu 0x2144 0x04a0>,
+-							 <&apps_smmu 0x2164 0x04a0>,
+-							 <&apps_smmu 0x2184 0x0400>,
+-							 <&apps_smmu 0x21c4 0x04a0>,
+-							 <&apps_smmu 0x21e4 0x04a0>,
+-							 <&apps_smmu 0x2544 0x04a0>,
+-							 <&apps_smmu 0x2564 0x04a0>,
+-							 <&apps_smmu 0x2584 0x0400>,
+-							 <&apps_smmu 0x25c4 0x04a0>,
+-							 <&apps_smmu 0x25e4 0x04a0>;
++							 <&apps_smmu 0x2184 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -4967,15 +4937,7 @@ compute-cb@5 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <5>;
+ 						iommus = <&apps_smmu 0x2145 0x04a0>,
+-							 <&apps_smmu 0x2165 0x04a0>,
+-							 <&apps_smmu 0x2185 0x0400>,
+-							 <&apps_smmu 0x21c5 0x04a0>,
+-							 <&apps_smmu 0x21e5 0x04a0>,
+-							 <&apps_smmu 0x2545 0x04a0>,
+-							 <&apps_smmu 0x2565 0x04a0>,
+-							 <&apps_smmu 0x2585 0x0400>,
+-							 <&apps_smmu 0x25c5 0x04a0>,
+-							 <&apps_smmu 0x25e5 0x04a0>;
++							 <&apps_smmu 0x2185 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -4983,15 +4945,7 @@ compute-cb@6 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <6>;
+ 						iommus = <&apps_smmu 0x2146 0x04a0>,
+-							 <&apps_smmu 0x2166 0x04a0>,
+-							 <&apps_smmu 0x2186 0x0400>,
+-							 <&apps_smmu 0x21c6 0x04a0>,
+-							 <&apps_smmu 0x21e6 0x04a0>,
+-							 <&apps_smmu 0x2546 0x04a0>,
+-							 <&apps_smmu 0x2566 0x04a0>,
+-							 <&apps_smmu 0x2586 0x0400>,
+-							 <&apps_smmu 0x25c6 0x04a0>,
+-							 <&apps_smmu 0x25e6 0x04a0>;
++							 <&apps_smmu 0x2186 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -4999,15 +4953,7 @@ compute-cb@7 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <7>;
+ 						iommus = <&apps_smmu 0x2147 0x04a0>,
+-							 <&apps_smmu 0x2167 0x04a0>,
+-							 <&apps_smmu 0x2187 0x0400>,
+-							 <&apps_smmu 0x21c7 0x04a0>,
+-							 <&apps_smmu 0x21e7 0x04a0>,
+-							 <&apps_smmu 0x2547 0x04a0>,
+-							 <&apps_smmu 0x2567 0x04a0>,
+-							 <&apps_smmu 0x2587 0x0400>,
+-							 <&apps_smmu 0x25c7 0x04a0>,
+-							 <&apps_smmu 0x25e7 0x04a0>;
++							 <&apps_smmu 0x2187 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5015,15 +4961,7 @@ compute-cb@8 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <8>;
+ 						iommus = <&apps_smmu 0x2148 0x04a0>,
+-							 <&apps_smmu 0x2168 0x04a0>,
+-							 <&apps_smmu 0x2188 0x0400>,
+-							 <&apps_smmu 0x21c8 0x04a0>,
+-							 <&apps_smmu 0x21e8 0x04a0>,
+-							 <&apps_smmu 0x2548 0x04a0>,
+-							 <&apps_smmu 0x2568 0x04a0>,
+-							 <&apps_smmu 0x2588 0x0400>,
+-							 <&apps_smmu 0x25c8 0x04a0>,
+-							 <&apps_smmu 0x25e8 0x04a0>;
++							 <&apps_smmu 0x2188 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5031,31 +4969,7 @@ compute-cb@9 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <9>;
+ 						iommus = <&apps_smmu 0x2149 0x04a0>,
+-							 <&apps_smmu 0x2169 0x04a0>,
+-							 <&apps_smmu 0x2189 0x0400>,
+-							 <&apps_smmu 0x21c9 0x04a0>,
+-							 <&apps_smmu 0x21e9 0x04a0>,
+-							 <&apps_smmu 0x2549 0x04a0>,
+-							 <&apps_smmu 0x2569 0x04a0>,
+-							 <&apps_smmu 0x2589 0x0400>,
+-							 <&apps_smmu 0x25c9 0x04a0>,
+-							 <&apps_smmu 0x25e9 0x04a0>;
+-						dma-coherent;
+-					};
+-
+-					compute-cb@10 {
+-						compatible = "qcom,fastrpc-compute-cb";
+-						reg = <10>;
+-						iommus = <&apps_smmu 0x214a 0x04a0>,
+-							 <&apps_smmu 0x216a 0x04a0>,
+-							 <&apps_smmu 0x218a 0x0400>,
+-							 <&apps_smmu 0x21ca 0x04a0>,
+-							 <&apps_smmu 0x21ea 0x04a0>,
+-							 <&apps_smmu 0x254a 0x04a0>,
+-							 <&apps_smmu 0x256a 0x04a0>,
+-							 <&apps_smmu 0x258a 0x0400>,
+-							 <&apps_smmu 0x25ca 0x04a0>,
+-							 <&apps_smmu 0x25ea 0x04a0>;
++							 <&apps_smmu 0x2189 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5063,15 +4977,7 @@ compute-cb@11 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <11>;
+ 						iommus = <&apps_smmu 0x214b 0x04a0>,
+-							 <&apps_smmu 0x216b 0x04a0>,
+-							 <&apps_smmu 0x218b 0x0400>,
+-							 <&apps_smmu 0x21cb 0x04a0>,
+-							 <&apps_smmu 0x21eb 0x04a0>,
+-							 <&apps_smmu 0x254b 0x04a0>,
+-							 <&apps_smmu 0x256b 0x04a0>,
+-							 <&apps_smmu 0x258b 0x0400>,
+-							 <&apps_smmu 0x25cb 0x04a0>,
+-							 <&apps_smmu 0x25eb 0x04a0>;
++							 <&apps_smmu 0x218b 0x0400>;
+ 						dma-coherent;
+ 					};
+ 				};
+@@ -5131,15 +5037,7 @@ compute-cb@1 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <1>;
+ 						iommus = <&apps_smmu 0x2941 0x04a0>,
+-							 <&apps_smmu 0x2961 0x04a0>,
+-							 <&apps_smmu 0x2981 0x0400>,
+-							 <&apps_smmu 0x29c1 0x04a0>,
+-							 <&apps_smmu 0x29e1 0x04a0>,
+-							 <&apps_smmu 0x2d41 0x04a0>,
+-							 <&apps_smmu 0x2d61 0x04a0>,
+-							 <&apps_smmu 0x2d81 0x0400>,
+-							 <&apps_smmu 0x2dc1 0x04a0>,
+-							 <&apps_smmu 0x2de1 0x04a0>;
++							 <&apps_smmu 0x2981 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5147,15 +5045,7 @@ compute-cb@2 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <2>;
+ 						iommus = <&apps_smmu 0x2942 0x04a0>,
+-							 <&apps_smmu 0x2962 0x04a0>,
+-							 <&apps_smmu 0x2982 0x0400>,
+-							 <&apps_smmu 0x29c2 0x04a0>,
+-							 <&apps_smmu 0x29e2 0x04a0>,
+-							 <&apps_smmu 0x2d42 0x04a0>,
+-							 <&apps_smmu 0x2d62 0x04a0>,
+-							 <&apps_smmu 0x2d82 0x0400>,
+-							 <&apps_smmu 0x2dc2 0x04a0>,
+-							 <&apps_smmu 0x2de2 0x04a0>;
++							 <&apps_smmu 0x2982 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5163,15 +5053,7 @@ compute-cb@3 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <3>;
+ 						iommus = <&apps_smmu 0x2943 0x04a0>,
+-							 <&apps_smmu 0x2963 0x04a0>,
+-							 <&apps_smmu 0x2983 0x0400>,
+-							 <&apps_smmu 0x29c3 0x04a0>,
+-							 <&apps_smmu 0x29e3 0x04a0>,
+-							 <&apps_smmu 0x2d43 0x04a0>,
+-							 <&apps_smmu 0x2d63 0x04a0>,
+-							 <&apps_smmu 0x2d83 0x0400>,
+-							 <&apps_smmu 0x2dc3 0x04a0>,
+-							 <&apps_smmu 0x2de3 0x04a0>;
++							 <&apps_smmu 0x2983 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5179,15 +5061,7 @@ compute-cb@4 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <4>;
+ 						iommus = <&apps_smmu 0x2944 0x04a0>,
+-							 <&apps_smmu 0x2964 0x04a0>,
+-							 <&apps_smmu 0x2984 0x0400>,
+-							 <&apps_smmu 0x29c4 0x04a0>,
+-							 <&apps_smmu 0x29e4 0x04a0>,
+-							 <&apps_smmu 0x2d44 0x04a0>,
+-							 <&apps_smmu 0x2d64 0x04a0>,
+-							 <&apps_smmu 0x2d84 0x0400>,
+-							 <&apps_smmu 0x2dc4 0x04a0>,
+-							 <&apps_smmu 0x2de4 0x04a0>;
++							 <&apps_smmu 0x2984 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5195,15 +5069,7 @@ compute-cb@5 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <5>;
+ 						iommus = <&apps_smmu 0x2945 0x04a0>,
+-							 <&apps_smmu 0x2965 0x04a0>,
+-							 <&apps_smmu 0x2985 0x0400>,
+-							 <&apps_smmu 0x29c5 0x04a0>,
+-							 <&apps_smmu 0x29e5 0x04a0>,
+-							 <&apps_smmu 0x2d45 0x04a0>,
+-							 <&apps_smmu 0x2d65 0x04a0>,
+-							 <&apps_smmu 0x2d85 0x0400>,
+-							 <&apps_smmu 0x2dc5 0x04a0>,
+-							 <&apps_smmu 0x2de5 0x04a0>;
++							 <&apps_smmu 0x2985 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5211,15 +5077,7 @@ compute-cb@6 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <6>;
+ 						iommus = <&apps_smmu 0x2946 0x04a0>,
+-							 <&apps_smmu 0x2966 0x04a0>,
+-							 <&apps_smmu 0x2986 0x0400>,
+-							 <&apps_smmu 0x29c6 0x04a0>,
+-							 <&apps_smmu 0x29e6 0x04a0>,
+-							 <&apps_smmu 0x2d46 0x04a0>,
+-							 <&apps_smmu 0x2d66 0x04a0>,
+-							 <&apps_smmu 0x2d86 0x0400>,
+-							 <&apps_smmu 0x2dc6 0x04a0>,
+-							 <&apps_smmu 0x2de6 0x04a0>;
++							 <&apps_smmu 0x2986 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5227,15 +5085,7 @@ compute-cb@7 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <7>;
+ 						iommus = <&apps_smmu 0x2947 0x04a0>,
+-							 <&apps_smmu 0x2967 0x04a0>,
+-							 <&apps_smmu 0x2987 0x0400>,
+-							 <&apps_smmu 0x29c7 0x04a0>,
+-							 <&apps_smmu 0x29e7 0x04a0>,
+-							 <&apps_smmu 0x2d47 0x04a0>,
+-							 <&apps_smmu 0x2d67 0x04a0>,
+-							 <&apps_smmu 0x2d87 0x0400>,
+-							 <&apps_smmu 0x2dc7 0x04a0>,
+-							 <&apps_smmu 0x2de7 0x04a0>;
++							 <&apps_smmu 0x2987 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5243,15 +5093,7 @@ compute-cb@8 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <8>;
+ 						iommus = <&apps_smmu 0x2948 0x04a0>,
+-							 <&apps_smmu 0x2968 0x04a0>,
+-							 <&apps_smmu 0x2988 0x0400>,
+-							 <&apps_smmu 0x29c8 0x04a0>,
+-							 <&apps_smmu 0x29e8 0x04a0>,
+-							 <&apps_smmu 0x2d48 0x04a0>,
+-							 <&apps_smmu 0x2d68 0x04a0>,
+-							 <&apps_smmu 0x2d88 0x0400>,
+-							 <&apps_smmu 0x2dc8 0x04a0>,
+-							 <&apps_smmu 0x2de8 0x04a0>;
++							 <&apps_smmu 0x2988 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5259,15 +5101,7 @@ compute-cb@9 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <9>;
+ 						iommus = <&apps_smmu 0x2949 0x04a0>,
+-							 <&apps_smmu 0x2969 0x04a0>,
+-							 <&apps_smmu 0x2989 0x0400>,
+-							 <&apps_smmu 0x29c9 0x04a0>,
+-							 <&apps_smmu 0x29e9 0x04a0>,
+-							 <&apps_smmu 0x2d49 0x04a0>,
+-							 <&apps_smmu 0x2d69 0x04a0>,
+-							 <&apps_smmu 0x2d89 0x0400>,
+-							 <&apps_smmu 0x2dc9 0x04a0>,
+-							 <&apps_smmu 0x2de9 0x04a0>;
++							 <&apps_smmu 0x2989 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5275,15 +5109,7 @@ compute-cb@10 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <10>;
+ 						iommus = <&apps_smmu 0x294a 0x04a0>,
+-							 <&apps_smmu 0x296a 0x04a0>,
+-							 <&apps_smmu 0x298a 0x0400>,
+-							 <&apps_smmu 0x29ca 0x04a0>,
+-							 <&apps_smmu 0x29ea 0x04a0>,
+-							 <&apps_smmu 0x2d4a 0x04a0>,
+-							 <&apps_smmu 0x2d6a 0x04a0>,
+-							 <&apps_smmu 0x2d8a 0x0400>,
+-							 <&apps_smmu 0x2dca 0x04a0>,
+-							 <&apps_smmu 0x2dea 0x04a0>;
++							 <&apps_smmu 0x298a 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5291,15 +5117,7 @@ compute-cb@11 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <11>;
+ 						iommus = <&apps_smmu 0x294b 0x04a0>,
+-							 <&apps_smmu 0x296b 0x04a0>,
+-							 <&apps_smmu 0x298b 0x0400>,
+-							 <&apps_smmu 0x29cb 0x04a0>,
+-							 <&apps_smmu 0x29eb 0x04a0>,
+-							 <&apps_smmu 0x2d4b 0x04a0>,
+-							 <&apps_smmu 0x2d6b 0x04a0>,
+-							 <&apps_smmu 0x2d8b 0x0400>,
+-							 <&apps_smmu 0x2dcb 0x04a0>,
+-							 <&apps_smmu 0x2deb 0x04a0>;
++							 <&apps_smmu 0x298b 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5307,15 +5125,7 @@ compute-cb@12 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <12>;
+ 						iommus = <&apps_smmu 0x294c 0x04a0>,
+-							 <&apps_smmu 0x296c 0x04a0>,
+-							 <&apps_smmu 0x298c 0x0400>,
+-							 <&apps_smmu 0x29cc 0x04a0>,
+-							 <&apps_smmu 0x29ec 0x04a0>,
+-							 <&apps_smmu 0x2d4c 0x04a0>,
+-							 <&apps_smmu 0x2d6c 0x04a0>,
+-							 <&apps_smmu 0x2d8c 0x0400>,
+-							 <&apps_smmu 0x2dcc 0x04a0>,
+-							 <&apps_smmu 0x2dec 0x04a0>;
++							 <&apps_smmu 0x298c 0x0400>;
+ 						dma-coherent;
+ 					};
+ 
+@@ -5323,15 +5133,7 @@ compute-cb@13 {
+ 						compatible = "qcom,fastrpc-compute-cb";
+ 						reg = <13>;
+ 						iommus = <&apps_smmu 0x294d 0x04a0>,
+-							 <&apps_smmu 0x296d 0x04a0>,
+-							 <&apps_smmu 0x298d 0x0400>,
+-							 <&apps_smmu 0x29Cd 0x04a0>,
+-							 <&apps_smmu 0x29ed 0x04a0>,
+-							 <&apps_smmu 0x2d4d 0x04a0>,
+-							 <&apps_smmu 0x2d6d 0x04a0>,
+-							 <&apps_smmu 0x2d8d 0x0400>,
+-							 <&apps_smmu 0x2dcd 0x04a0>,
+-							 <&apps_smmu 0x2ded 0x04a0>;
++							 <&apps_smmu 0x298d 0x0400>;
+ 						dma-coherent;
+ 					};
+ 				};
+diff --git a/arch/arm64/boot/dts/qcom/sm8350.dtsi b/arch/arm64/boot/dts/qcom/sm8350.dtsi
+index 69da30f35baa..f055600d6cfe 100644
+--- a/arch/arm64/boot/dts/qcom/sm8350.dtsi
++++ b/arch/arm64/boot/dts/qcom/sm8350.dtsi
+@@ -455,7 +455,7 @@ cdsp_secure_heap: memory@80c00000 {
+ 			no-map;
+ 		};
+ 
+-		pil_camera_mem: mmeory@85200000 {
++		pil_camera_mem: memory@85200000 {
+ 			reg = <0x0 0x85200000 0x0 0x500000>;
+ 			no-map;
+ 		};
+diff --git a/arch/arm64/boot/dts/qcom/sm8450.dtsi b/arch/arm64/boot/dts/qcom/sm8450.dtsi
+index 9c809fc5fa45..419df72cd04b 100644
+--- a/arch/arm64/boot/dts/qcom/sm8450.dtsi
++++ b/arch/arm64/boot/dts/qcom/sm8450.dtsi
+@@ -5283,6 +5283,8 @@ cryptobam: dma-controller@1dc4000 {
+ 			interrupts = <GIC_SPI 272 IRQ_TYPE_LEVEL_HIGH>;
+ 			#dma-cells = <1>;
+ 			qcom,ee = <0>;
++			qcom,num-ees = <4>;
++			num-channels = <16>;
+ 			qcom,controlled-remotely;
+ 			iommus = <&apps_smmu 0x584 0x11>,
+ 				 <&apps_smmu 0x588 0x0>,
+diff --git a/arch/arm64/boot/dts/qcom/sm8550.dtsi b/arch/arm64/boot/dts/qcom/sm8550.dtsi
+index eac8de4005d8..ac3e00ad4177 100644
+--- a/arch/arm64/boot/dts/qcom/sm8550.dtsi
++++ b/arch/arm64/boot/dts/qcom/sm8550.dtsi
+@@ -1957,6 +1957,8 @@ cryptobam: dma-controller@1dc4000 {
+ 			interrupts = <GIC_SPI 272 IRQ_TYPE_LEVEL_HIGH>;
+ 			#dma-cells = <1>;
+ 			qcom,ee = <0>;
++			qcom,num-ees = <4>;
++			num-channels = <20>;
+ 			qcom,controlled-remotely;
+ 			iommus = <&apps_smmu 0x480 0x0>,
+ 				 <&apps_smmu 0x481 0x0>;
+diff --git a/arch/arm64/boot/dts/qcom/sm8650.dtsi b/arch/arm64/boot/dts/qcom/sm8650.dtsi
+index 86684cb9a932..c8a2a76a98f0 100644
+--- a/arch/arm64/boot/dts/qcom/sm8650.dtsi
++++ b/arch/arm64/boot/dts/qcom/sm8650.dtsi
+@@ -2533,6 +2533,8 @@ cryptobam: dma-controller@1dc4000 {
+ 				 <&apps_smmu 0x481 0>;
+ 
+ 			qcom,ee = <0>;
++			qcom,num-ees = <4>;
++			num-channels = <20>;
+ 			qcom,controlled-remotely;
+ 		};
+ 
+diff --git a/arch/arm64/boot/dts/qcom/x1e001de-devkit.dts b/arch/arm64/boot/dts/qcom/x1e001de-devkit.dts
+index 5e3970b26e2f..f5063a0df9fb 100644
+--- a/arch/arm64/boot/dts/qcom/x1e001de-devkit.dts
++++ b/arch/arm64/boot/dts/qcom/x1e001de-devkit.dts
+@@ -507,6 +507,7 @@ vreg_l12b_1p2: ldo12 {
+ 			regulator-min-microvolt = <1200000>;
+ 			regulator-max-microvolt = <1200000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l13b_3p0: ldo13 {
+@@ -528,6 +529,7 @@ vreg_l15b_1p8: ldo15 {
+ 			regulator-min-microvolt = <1800000>;
+ 			regulator-max-microvolt = <1800000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l16b_2p9: ldo16 {
+@@ -745,8 +747,8 @@ vreg_l1j_0p8: ldo1 {
+ 
+ 		vreg_l2j_1p2: ldo2 {
+ 			regulator-name = "vreg_l2j_1p2";
+-			regulator-min-microvolt = <1200000>;
+-			regulator-max-microvolt = <1200000>;
++			regulator-min-microvolt = <1256000>;
++			regulator-max-microvolt = <1256000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
+ 		};
+ 
+diff --git a/arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15.dts b/arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15.dts
+index 53781f9b13af..f53067463b76 100644
+--- a/arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15.dts
++++ b/arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15.dts
+@@ -330,8 +330,8 @@ vreg_l1j_0p8: ldo1 {
+ 
+ 		vreg_l2j_1p2: ldo2 {
+ 			regulator-name = "vreg_l2j_1p2";
+-			regulator-min-microvolt = <1200000>;
+-			regulator-max-microvolt = <1200000>;
++			regulator-min-microvolt = <1256000>;
++			regulator-max-microvolt = <1256000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
+ 		};
+ 
+diff --git a/arch/arm64/boot/dts/qcom/x1e80100-dell-xps13-9345.dts b/arch/arm64/boot/dts/qcom/x1e80100-dell-xps13-9345.dts
+index 86e87f03b0ec..90f588ed7d63 100644
+--- a/arch/arm64/boot/dts/qcom/x1e80100-dell-xps13-9345.dts
++++ b/arch/arm64/boot/dts/qcom/x1e80100-dell-xps13-9345.dts
+@@ -359,6 +359,7 @@ vreg_l12b_1p2: ldo12 {
+ 			regulator-min-microvolt = <1200000>;
+ 			regulator-max-microvolt = <1200000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l13b_3p0: ldo13 {
+@@ -380,6 +381,7 @@ vreg_l15b_1p8: ldo15 {
+ 			regulator-min-microvolt = <1800000>;
+ 			regulator-max-microvolt = <1800000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l17b_2p5: ldo17 {
+diff --git a/arch/arm64/boot/dts/qcom/x1e80100-hp-omnibook-x14.dts b/arch/arm64/boot/dts/qcom/x1e80100-hp-omnibook-x14.dts
+index cd860a246c45..929da9ecddc4 100644
+--- a/arch/arm64/boot/dts/qcom/x1e80100-hp-omnibook-x14.dts
++++ b/arch/arm64/boot/dts/qcom/x1e80100-hp-omnibook-x14.dts
+@@ -633,6 +633,7 @@ vreg_l12b_1p2: ldo12 {
+ 			regulator-min-microvolt = <1200000>;
+ 			regulator-max-microvolt = <1200000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l13b_3p0: ldo13 {
+@@ -654,6 +655,7 @@ vreg_l15b_1p8: ldo15 {
+ 			regulator-min-microvolt = <1800000>;
+ 			regulator-max-microvolt = <1800000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l16b_2p9: ldo16 {
+@@ -871,8 +873,8 @@ vreg_l1j_0p8: ldo1 {
+ 
+ 		vreg_l2j_1p2: ldo2 {
+ 			regulator-name = "vreg_l2j_1p2";
+-			regulator-min-microvolt = <1200000>;
+-			regulator-max-microvolt = <1200000>;
++			regulator-min-microvolt = <1256000>;
++			regulator-max-microvolt = <1256000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
+ 		};
+ 
+@@ -1352,18 +1354,22 @@ &remoteproc_cdsp {
+ 	status = "okay";
+ };
+ 
++&smb2360_0 {
++	status = "okay";
++};
++
+ &smb2360_0_eusb2_repeater {
+ 	vdd18-supply = <&vreg_l3d_1p8>;
+ 	vdd3-supply = <&vreg_l2b_3p0>;
++};
+ 
++&smb2360_1 {
+ 	status = "okay";
+ };
+ 
+ &smb2360_1_eusb2_repeater {
+ 	vdd18-supply = <&vreg_l3d_1p8>;
+ 	vdd3-supply = <&vreg_l14b_3p0>;
+-
+-	status = "okay";
+ };
+ 
+ &swr0 {
+diff --git a/arch/arm64/boot/dts/qcom/x1e80100-lenovo-yoga-slim7x.dts b/arch/arm64/boot/dts/qcom/x1e80100-lenovo-yoga-slim7x.dts
+index a3d53f2ba2c3..744a66ae5bdc 100644
+--- a/arch/arm64/boot/dts/qcom/x1e80100-lenovo-yoga-slim7x.dts
++++ b/arch/arm64/boot/dts/qcom/x1e80100-lenovo-yoga-slim7x.dts
+@@ -290,6 +290,7 @@ vreg_l12b_1p2: ldo12 {
+ 			regulator-min-microvolt = <1200000>;
+ 			regulator-max-microvolt = <1200000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l14b_3p0: ldo14 {
+@@ -304,8 +305,8 @@ vreg_l15b_1p8: ldo15 {
+ 			regulator-min-microvolt = <1800000>;
+ 			regulator-max-microvolt = <1800000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+-
+ 	};
+ 
+ 	regulators-1 {
+@@ -508,8 +509,8 @@ vreg_l1j_0p8: ldo1 {
+ 
+ 		vreg_l2j_1p2: ldo2 {
+ 			regulator-name = "vreg_l2j_1p2";
+-			regulator-min-microvolt = <1200000>;
+-			regulator-max-microvolt = <1200000>;
++			regulator-min-microvolt = <1256000>;
++			regulator-max-microvolt = <1256000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
+ 		};
+ 
+diff --git a/arch/arm64/boot/dts/qcom/x1e80100-qcp.dts b/arch/arm64/boot/dts/qcom/x1e80100-qcp.dts
+index ec594628304a..f06f45478846 100644
+--- a/arch/arm64/boot/dts/qcom/x1e80100-qcp.dts
++++ b/arch/arm64/boot/dts/qcom/x1e80100-qcp.dts
+@@ -437,6 +437,7 @@ vreg_l12b_1p2: ldo12 {
+ 			regulator-min-microvolt = <1200000>;
+ 			regulator-max-microvolt = <1200000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l13b_3p0: ldo13 {
+@@ -458,6 +459,7 @@ vreg_l15b_1p8: ldo15 {
+ 			regulator-min-microvolt = <1800000>;
+ 			regulator-max-microvolt = <1800000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
++			regulator-always-on;
+ 		};
+ 
+ 		vreg_l16b_2p9: ldo16 {
+@@ -675,8 +677,8 @@ vreg_l1j_0p8: ldo1 {
+ 
+ 		vreg_l2j_1p2: ldo2 {
+ 			regulator-name = "vreg_l2j_1p2";
+-			regulator-min-microvolt = <1200000>;
+-			regulator-max-microvolt = <1200000>;
++			regulator-min-microvolt = <1256000>;
++			regulator-max-microvolt = <1256000>;
+ 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
+ 		};
+ 
+diff --git a/arch/arm64/boot/dts/qcom/x1e80100.dtsi b/arch/arm64/boot/dts/qcom/x1e80100.dtsi
+index 4936fa5b98ff..5aeecf711340 100644
+--- a/arch/arm64/boot/dts/qcom/x1e80100.dtsi
++++ b/arch/arm64/boot/dts/qcom/x1e80100.dtsi
+@@ -20,6 +20,7 @@
+ #include <dt-bindings/soc/qcom,gpr.h>
+ #include <dt-bindings/soc/qcom,rpmh-rsc.h>
+ #include <dt-bindings/sound/qcom,q6dsp-lpass-ports.h>
++#include <dt-bindings/thermal/thermal.h>
+ 
+ / {
+ 	interrupt-parent = <&intc>;
+@@ -3125,7 +3126,7 @@ pcie3: pcie@1bd0000 {
+ 			device_type = "pci";
+ 			compatible = "qcom,pcie-x1e80100";
+ 			reg = <0x0 0x01bd0000 0x0 0x3000>,
+-			      <0x0 0x78000000 0x0 0xf1d>,
++			      <0x0 0x78000000 0x0 0xf20>,
+ 			      <0x0 0x78000f40 0x0 0xa8>,
+ 			      <0x0 0x78001000 0x0 0x1000>,
+ 			      <0x0 0x78100000 0x0 0x100000>,
+@@ -8457,8 +8458,8 @@ trip-point0 {
+ 				};
+ 
+ 				aoss0-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -8483,7 +8484,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8509,7 +8510,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8535,7 +8536,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8561,7 +8562,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8587,7 +8588,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8613,7 +8614,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8639,7 +8640,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8665,7 +8666,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8683,8 +8684,8 @@ trip-point0 {
+ 				};
+ 
+ 				cpuss2-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -8701,8 +8702,8 @@ trip-point0 {
+ 				};
+ 
+ 				cpuss2-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -8719,7 +8720,7 @@ trip-point0 {
+ 				};
+ 
+ 				mem-critical {
+-					temperature = <125000>;
++					temperature = <115000>;
+ 					hysteresis = <0>;
+ 					type = "critical";
+ 				};
+@@ -8727,15 +8728,19 @@ mem-critical {
+ 		};
+ 
+ 		video-thermal {
+-			polling-delay-passive = <250>;
+-
+ 			thermal-sensors = <&tsens0 12>;
+ 
+ 			trips {
+ 				trip-point0 {
+-					temperature = <125000>;
++					temperature = <90000>;
++					hysteresis = <2000>;
++					type = "hot";
++				};
++
++				video-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+-					type = "passive";
++					type = "critical";
+ 				};
+ 			};
+ 		};
+@@ -8751,8 +8756,8 @@ trip-point0 {
+ 				};
+ 
+ 				aoss0-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -8777,7 +8782,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8803,7 +8808,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8829,7 +8834,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8855,7 +8860,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8881,7 +8886,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8907,7 +8912,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8933,7 +8938,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8959,7 +8964,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -8977,8 +8982,8 @@ trip-point0 {
+ 				};
+ 
+ 				cpuss2-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -8995,8 +9000,8 @@ trip-point0 {
+ 				};
+ 
+ 				cpuss2-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9013,8 +9018,8 @@ trip-point0 {
+ 				};
+ 
+ 				aoss0-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9039,7 +9044,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9065,7 +9070,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9091,7 +9096,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9117,7 +9122,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9143,7 +9148,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9169,7 +9174,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9195,7 +9200,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9221,7 +9226,7 @@ trip-point1 {
+ 				};
+ 
+ 				cpu-critical {
+-					temperature = <110000>;
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9239,8 +9244,8 @@ trip-point0 {
+ 				};
+ 
+ 				cpuss2-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9257,8 +9262,8 @@ trip-point0 {
+ 				};
+ 
+ 				cpuss2-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9275,8 +9280,8 @@ trip-point0 {
+ 				};
+ 
+ 				aoss0-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9293,8 +9298,8 @@ trip-point0 {
+ 				};
+ 
+ 				nsp0-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9311,8 +9316,8 @@ trip-point0 {
+ 				};
+ 
+ 				nsp1-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9329,8 +9334,8 @@ trip-point0 {
+ 				};
+ 
+ 				nsp2-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9347,33 +9352,34 @@ trip-point0 {
+ 				};
+ 
+ 				nsp3-critical {
+-					temperature = <125000>;
+-					hysteresis = <0>;
++					temperature = <115000>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+ 		};
+ 
+ 		gpuss-0-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 5>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss0_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss0_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9381,25 +9387,26 @@ trip-point2 {
+ 		};
+ 
+ 		gpuss-1-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 6>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss1_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss1_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9407,25 +9414,26 @@ trip-point2 {
+ 		};
+ 
+ 		gpuss-2-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 7>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss2_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss2_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9433,25 +9441,26 @@ trip-point2 {
+ 		};
+ 
+ 		gpuss-3-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 8>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss3_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss3_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9459,25 +9468,26 @@ trip-point2 {
+ 		};
+ 
+ 		gpuss-4-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 9>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss4_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss4_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9485,25 +9495,26 @@ trip-point2 {
+ 		};
+ 
+ 		gpuss-5-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 10>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss5_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss5_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9511,25 +9522,26 @@ trip-point2 {
+ 		};
+ 
+ 		gpuss-6-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 11>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss6_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss6_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9537,25 +9549,26 @@ trip-point2 {
+ 		};
+ 
+ 		gpuss-7-thermal {
+-			polling-delay-passive = <10>;
++			polling-delay-passive = <200>;
+ 
+ 			thermal-sensors = <&tsens3 12>;
+ 
++			cooling-maps {
++				map0 {
++					trip = <&gpuss7_alert0>;
++					cooling-device = <&gpu THERMAL_NO_LIMIT THERMAL_NO_LIMIT>;
++				};
++			};
++
+ 			trips {
+-				trip-point0 {
+-					temperature = <85000>;
++				gpuss7_alert0: trip-point0 {
++					temperature = <95000>;
+ 					hysteresis = <1000>;
+ 					type = "passive";
+ 				};
+ 
+-				trip-point1 {
+-					temperature = <90000>;
+-					hysteresis = <1000>;
+-					type = "hot";
+-				};
+-
+-				trip-point2 {
+-					temperature = <125000>;
++				gpu-critical {
++					temperature = <115000>;
+ 					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+@@ -9574,7 +9587,7 @@ trip-point0 {
+ 
+ 				camera0-critical {
+ 					temperature = <115000>;
+-					hysteresis = <0>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+@@ -9592,7 +9605,7 @@ trip-point0 {
+ 
+ 				camera0-critical {
+ 					temperature = <115000>;
+-					hysteresis = <0>;
++					hysteresis = <1000>;
+ 					type = "critical";
+ 				};
+ 			};
+diff --git a/arch/arm64/boot/dts/rockchip/rk3399-puma.dtsi b/arch/arm64/boot/dts/rockchip/rk3399-puma.dtsi
+index 995b30a7aae0..dd5a9bca26d1 100644
+--- a/arch/arm64/boot/dts/rockchip/rk3399-puma.dtsi
++++ b/arch/arm64/boot/dts/rockchip/rk3399-puma.dtsi
+@@ -60,16 +60,6 @@ vcc3v3_sys: regulator-vcc3v3-sys {
+ 		vin-supply = <&vcc5v0_sys>;
+ 	};
+ 
+-	vcc5v0_host: regulator-vcc5v0-host {
+-		compatible = "regulator-fixed";
+-		gpio = <&gpio4 RK_PA3 GPIO_ACTIVE_LOW>;
+-		pinctrl-names = "default";
+-		pinctrl-0 = <&vcc5v0_host_en>;
+-		regulator-name = "vcc5v0_host";
+-		regulator-always-on;
+-		vin-supply = <&vcc5v0_sys>;
+-	};
+-
+ 	vcc5v0_sys: regulator-vcc5v0-sys {
+ 		compatible = "regulator-fixed";
+ 		regulator-name = "vcc5v0_sys";
+@@ -521,10 +511,10 @@ pmic_int_l: pmic-int-l {
+ 		};
+ 	};
+ 
+-	usb2 {
+-		vcc5v0_host_en: vcc5v0-host-en {
++	usb {
++		cy3304_reset: cy3304-reset {
+ 			rockchip,pins =
+-			  <4 RK_PA3 RK_FUNC_GPIO &pcfg_pull_none>;
++			  <4 RK_PA3 RK_FUNC_GPIO &pcfg_output_high>;
+ 		};
+ 	};
+ 
+@@ -591,7 +581,6 @@ u2phy1_otg: otg-port {
+ 	};
+ 
+ 	u2phy1_host: host-port {
+-		phy-supply = <&vcc5v0_host>;
+ 		status = "okay";
+ 	};
+ };
+@@ -603,6 +592,29 @@ &usbdrd3_1 {
+ &usbdrd_dwc3_1 {
+ 	status = "okay";
+ 	dr_mode = "host";
++	pinctrl-names = "default";
++	pinctrl-0 = <&cy3304_reset>;
++	#address-cells = <1>;
++	#size-cells = <0>;
++
++	hub_2_0: hub@1 {
++		compatible = "usb4b4,6502", "usb4b4,6506";
++		reg = <1>;
++		peer-hub = <&hub_3_0>;
++		reset-gpios = <&gpio4 RK_PA3 GPIO_ACTIVE_HIGH>;
++		vdd-supply = <&vcc1v2_phy>;
++		vdd2-supply = <&vcc3v3_sys>;
++
++	};
++
++	hub_3_0: hub@2 {
++		compatible = "usb4b4,6500", "usb4b4,6504";
++		reg = <2>;
++		peer-hub = <&hub_2_0>;
++		reset-gpios = <&gpio4 RK_PA3 GPIO_ACTIVE_HIGH>;
++		vdd-supply = <&vcc1v2_phy>;
++		vdd2-supply = <&vcc3v3_sys>;
++	};
+ };
+ 
+ &usb_host1_ehci {
+diff --git a/arch/arm64/boot/dts/ti/k3-am62-main.dtsi b/arch/arm64/boot/dts/ti/k3-am62-main.dtsi
+index 7d355aa73ea2..0c286f600296 100644
+--- a/arch/arm64/boot/dts/ti/k3-am62-main.dtsi
++++ b/arch/arm64/boot/dts/ti/k3-am62-main.dtsi
+@@ -552,8 +552,6 @@ sdhci0: mmc@fa10000 {
+ 		power-domains = <&k3_pds 57 TI_SCI_PD_EXCLUSIVE>;
+ 		clocks = <&k3_clks 57 5>, <&k3_clks 57 6>;
+ 		clock-names = "clk_ahb", "clk_xin";
+-		assigned-clocks = <&k3_clks 57 6>;
+-		assigned-clock-parents = <&k3_clks 57 8>;
+ 		bus-width = <8>;
+ 		mmc-ddr-1_8v;
+ 		mmc-hs200-1_8v;
+diff --git a/arch/arm64/boot/dts/ti/k3-am62a-main.dtsi b/arch/arm64/boot/dts/ti/k3-am62a-main.dtsi
+index a1daba7b1fad..455ccc770f16 100644
+--- a/arch/arm64/boot/dts/ti/k3-am62a-main.dtsi
++++ b/arch/arm64/boot/dts/ti/k3-am62a-main.dtsi
+@@ -575,8 +575,6 @@ sdhci0: mmc@fa10000 {
+ 		power-domains = <&k3_pds 57 TI_SCI_PD_EXCLUSIVE>;
+ 		clocks = <&k3_clks 57 5>, <&k3_clks 57 6>;
+ 		clock-names = "clk_ahb", "clk_xin";
+-		assigned-clocks = <&k3_clks 57 6>;
+-		assigned-clock-parents = <&k3_clks 57 8>;
+ 		bus-width = <8>;
+ 		mmc-hs200-1_8v;
+ 		ti,clkbuf-sel = <0x7>;
+diff --git a/arch/arm64/boot/dts/ti/k3-am62p-j722s-common-main.dtsi b/arch/arm64/boot/dts/ti/k3-am62p-j722s-common-main.dtsi
+index 6e3beb5c2e01..f9b5c97518d6 100644
+--- a/arch/arm64/boot/dts/ti/k3-am62p-j722s-common-main.dtsi
++++ b/arch/arm64/boot/dts/ti/k3-am62p-j722s-common-main.dtsi
+@@ -564,8 +564,6 @@ sdhci0: mmc@fa10000 {
+ 		power-domains = <&k3_pds 57 TI_SCI_PD_EXCLUSIVE>;
+ 		clocks = <&k3_clks 57 1>, <&k3_clks 57 2>;
+ 		clock-names = "clk_ahb", "clk_xin";
+-		assigned-clocks = <&k3_clks 57 2>;
+-		assigned-clock-parents = <&k3_clks 57 4>;
+ 		bus-width = <8>;
+ 		mmc-ddr-1_8v;
+ 		mmc-hs200-1_8v;
+diff --git a/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-imx219.dtso b/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-imx219.dtso
+index 76ca02127f95..dd090813a32d 100644
+--- a/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-imx219.dtso
++++ b/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-imx219.dtso
+@@ -22,7 +22,7 @@ &main_i2c2 {
+ 	#size-cells = <0>;
+ 	status = "okay";
+ 
+-	i2c-switch@71 {
++	i2c-mux@71 {
+ 		compatible = "nxp,pca9543";
+ 		#address-cells = <1>;
+ 		#size-cells = <0>;
+@@ -39,7 +39,6 @@ ov5640: camera@10 {
+ 				reg = <0x10>;
+ 
+ 				clocks = <&clk_imx219_fixed>;
+-				clock-names = "xclk";
+ 
+ 				reset-gpios = <&exp1 13 GPIO_ACTIVE_HIGH>;
+ 
+diff --git a/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-ov5640.dtso b/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-ov5640.dtso
+index ccc7f5e43184..7fc7c95f5cd5 100644
+--- a/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-ov5640.dtso
++++ b/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-ov5640.dtso
+@@ -22,7 +22,7 @@ &main_i2c2 {
+ 	#size-cells = <0>;
+ 	status = "okay";
+ 
+-	i2c-switch@71 {
++	i2c-mux@71 {
+ 		compatible = "nxp,pca9543";
+ 		#address-cells = <1>;
+ 		#size-cells = <0>;
+diff --git a/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-tevi-ov5640.dtso b/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-tevi-ov5640.dtso
+index 4eaf9d757dd0..b6bfdfbbdd98 100644
+--- a/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-tevi-ov5640.dtso
++++ b/arch/arm64/boot/dts/ti/k3-am62x-sk-csi2-tevi-ov5640.dtso
+@@ -22,7 +22,7 @@ &main_i2c2 {
+ 	#size-cells = <0>;
+ 	status = "okay";
+ 
+-	i2c-switch@71 {
++	i2c-mux@71 {
+ 		compatible = "nxp,pca9543";
+ 		#address-cells = <1>;
+ 		#size-cells = <0>;
+diff --git a/arch/arm64/boot/dts/ti/k3-am65-main.dtsi b/arch/arm64/boot/dts/ti/k3-am65-main.dtsi
+index 94a812a1355b..5ebf7ada6e48 100644
+--- a/arch/arm64/boot/dts/ti/k3-am65-main.dtsi
++++ b/arch/arm64/boot/dts/ti/k3-am65-main.dtsi
+@@ -449,6 +449,8 @@ sdhci0: mmc@4f80000 {
+ 		ti,otap-del-sel-mmc-hs = <0x0>;
+ 		ti,otap-del-sel-ddr52 = <0x5>;
+ 		ti,otap-del-sel-hs200 = <0x5>;
++		ti,itap-del-sel-legacy = <0xa>;
++		ti,itap-del-sel-mmc-hs = <0x1>;
+ 		ti,itap-del-sel-ddr52 = <0x0>;
+ 		dma-coherent;
+ 		status = "disabled";
+diff --git a/arch/arm64/boot/dts/ti/k3-am68-sk-base-board.dts b/arch/arm64/boot/dts/ti/k3-am68-sk-base-board.dts
+index 11522b36e0ce..5fa70a874d7b 100644
+--- a/arch/arm64/boot/dts/ti/k3-am68-sk-base-board.dts
++++ b/arch/arm64/boot/dts/ti/k3-am68-sk-base-board.dts
+@@ -44,6 +44,17 @@ vusb_main: regulator-vusb-main5v0 {
+ 		regulator-boot-on;
+ 	};
+ 
++	vsys_5v0: regulator-vsys5v0 {
++		/* Output of LM61460 */
++		compatible = "regulator-fixed";
++		regulator-name = "vsys_5v0";
++		regulator-min-microvolt = <5000000>;
++		regulator-max-microvolt = <5000000>;
++		vin-supply = <&vusb_main>;
++		regulator-always-on;
++		regulator-boot-on;
++	};
++
+ 	vsys_3v3: regulator-vsys3v3 {
+ 		/* Output of LM5141 */
+ 		compatible = "regulator-fixed";
+@@ -76,7 +87,7 @@ vdd_sd_dv: regulator-tlv71033 {
+ 		regulator-min-microvolt = <1800000>;
+ 		regulator-max-microvolt = <3300000>;
+ 		regulator-boot-on;
+-		vin-supply = <&vsys_3v3>;
++		vin-supply = <&vsys_5v0>;
+ 		gpios = <&main_gpio0 49 GPIO_ACTIVE_HIGH>;
+ 		states = <1800000 0x0>,
+ 			 <3300000 0x1>;
+diff --git a/arch/arm64/boot/dts/ti/k3-j721e-sk-csi2-dual-imx219.dtso b/arch/arm64/boot/dts/ti/k3-j721e-sk-csi2-dual-imx219.dtso
+index 47bb5480b5b0..4eb3cffab032 100644
+--- a/arch/arm64/boot/dts/ti/k3-j721e-sk-csi2-dual-imx219.dtso
++++ b/arch/arm64/boot/dts/ti/k3-j721e-sk-csi2-dual-imx219.dtso
+@@ -19,6 +19,33 @@ clk_imx219_fixed: imx219-xclk {
+ 		#clock-cells = <0>;
+ 		clock-frequency = <24000000>;
+ 	};
++
++	reg_2p8v: regulator-2p8v {
++		compatible = "regulator-fixed";
++		regulator-name = "2P8V";
++		regulator-min-microvolt = <2800000>;
++		regulator-max-microvolt = <2800000>;
++		vin-supply = <&vdd_sd_dv>;
++		regulator-always-on;
++	};
++
++	reg_1p8v: regulator-1p8v {
++		compatible = "regulator-fixed";
++		regulator-name = "1P8V";
++		regulator-min-microvolt = <1800000>;
++		regulator-max-microvolt = <1800000>;
++		vin-supply = <&vdd_sd_dv>;
++		regulator-always-on;
++	};
++
++	reg_1p2v: regulator-1p2v {
++		compatible = "regulator-fixed";
++		regulator-name = "1P2V";
++		regulator-min-microvolt = <1200000>;
++		regulator-max-microvolt = <1200000>;
++		vin-supply = <&vdd_sd_dv>;
++		regulator-always-on;
++	};
+ };
+ 
+ &csi_mux {
+@@ -34,7 +61,9 @@ imx219_0: imx219-0@10 {
+ 		reg = <0x10>;
+ 
+ 		clocks = <&clk_imx219_fixed>;
+-		clock-names = "xclk";
++		VANA-supply = <&reg_2p8v>;
++		VDIG-supply = <&reg_1p8v>;
++		VDDL-supply = <&reg_1p2v>;
+ 
+ 		port {
+ 			csi2_cam0: endpoint {
+@@ -56,7 +85,9 @@ imx219_1: imx219-1@10 {
+ 		reg = <0x10>;
+ 
+ 		clocks = <&clk_imx219_fixed>;
+-		clock-names = "xclk";
++		VANA-supply = <&reg_2p8v>;
++		VDIG-supply = <&reg_1p8v>;
++		VDDL-supply = <&reg_1p2v>;
+ 
+ 		port {
+ 			csi2_cam1: endpoint {
+diff --git a/arch/arm64/boot/dts/ti/k3-j721e-sk.dts b/arch/arm64/boot/dts/ti/k3-j721e-sk.dts
+index 69b3d1ed8a21..9fd32f020010 100644
+--- a/arch/arm64/boot/dts/ti/k3-j721e-sk.dts
++++ b/arch/arm64/boot/dts/ti/k3-j721e-sk.dts
+@@ -184,6 +184,17 @@ vsys_3v3: fixedregulator-vsys3v3 {
+ 		regulator-boot-on;
+ 	};
+ 
++	vsys_5v0: fixedregulator-vsys5v0 {
++		/* Output of LM61460 */
++		compatible = "regulator-fixed";
++		regulator-name = "vsys_5v0";
++		regulator-min-microvolt = <5000000>;
++		regulator-max-microvolt = <5000000>;
++		vin-supply = <&vusb_main>;
++		regulator-always-on;
++		regulator-boot-on;
++	};
++
+ 	vdd_mmc1: fixedregulator-sd {
+ 		compatible = "regulator-fixed";
+ 		pinctrl-names = "default";
+@@ -211,6 +222,20 @@ vdd_sd_dv_alt: gpio-regulator-tps659411 {
+ 			 <3300000 0x1>;
+ 	};
+ 
++	vdd_sd_dv: gpio-regulator-TLV71033 {
++		compatible = "regulator-gpio";
++		pinctrl-names = "default";
++		pinctrl-0 = <&vdd_sd_dv_pins_default>;
++		regulator-name = "tlv71033";
++		regulator-min-microvolt = <1800000>;
++		regulator-max-microvolt = <3300000>;
++		regulator-boot-on;
++		vin-supply = <&vsys_5v0>;
++		gpios = <&main_gpio0 118 GPIO_ACTIVE_HIGH>;
++		states = <1800000 0x0>,
++			 <3300000 0x1>;
++	};
++
+ 	transceiver1: can-phy1 {
+ 		compatible = "ti,tcan1042";
+ 		#phy-cells = <0>;
+@@ -613,6 +638,12 @@ J721E_WKUP_IOPAD(0xd4, PIN_OUTPUT, 7) /* (G26) WKUP_GPIO0_9 */
+ 		>;
+ 	};
+ 
++	vdd_sd_dv_pins_default: vdd-sd-dv-default-pins {
++		pinctrl-single,pins = <
++			J721E_IOPAD(0x1dc, PIN_OUTPUT, 7) /* (Y1) SPI1_CLK.GPIO0_118 */
++		>;
++	};
++
+ 	wkup_uart0_pins_default: wkup-uart0-default-pins {
+ 		pinctrl-single,pins = <
+ 			J721E_WKUP_IOPAD(0xa0, PIN_INPUT, 0) /* (J29) WKUP_UART0_RXD */
+diff --git a/arch/arm64/boot/dts/ti/k3-j722s-evm.dts b/arch/arm64/boot/dts/ti/k3-j722s-evm.dts
+index adee69607fdb..2503580254ad 100644
+--- a/arch/arm64/boot/dts/ti/k3-j722s-evm.dts
++++ b/arch/arm64/boot/dts/ti/k3-j722s-evm.dts
+@@ -815,6 +815,10 @@ &serdes_ln_ctrl {
+ 		      <J722S_SERDES1_LANE0_PCIE0_LANE0>;
+ };
+ 
++&serdes_wiz0 {
++	status = "okay";
++};
++
+ &serdes0 {
+ 	status = "okay";
+ 	serdes0_usb_link: phy@0 {
+@@ -826,6 +830,10 @@ serdes0_usb_link: phy@0 {
+ 	};
+ };
+ 
++&serdes_wiz1 {
++	status = "okay";
++};
++
+ &serdes1 {
+ 	status = "okay";
+ 	serdes1_pcie_link: phy@0 {
+diff --git a/arch/arm64/boot/dts/ti/k3-j722s-main.dtsi b/arch/arm64/boot/dts/ti/k3-j722s-main.dtsi
+index 6da7b3a2943c..43204084568c 100644
+--- a/arch/arm64/boot/dts/ti/k3-j722s-main.dtsi
++++ b/arch/arm64/boot/dts/ti/k3-j722s-main.dtsi
+@@ -32,6 +32,8 @@ serdes_wiz0: phy@f000000 {
+ 		assigned-clocks = <&k3_clks 279 1>;
+ 		assigned-clock-parents = <&k3_clks 279 5>;
+ 
++		status = "disabled";
++
+ 		serdes0: serdes@f000000 {
+ 			compatible = "ti,j721e-serdes-10g";
+ 			reg = <0x0f000000 0x00010000>;
+@@ -70,6 +72,8 @@ serdes_wiz1: phy@f010000 {
+ 		assigned-clocks = <&k3_clks 280 1>;
+ 		assigned-clock-parents = <&k3_clks 280 5>;
+ 
++		status = "disabled";
++
+ 		serdes1: serdes@f010000 {
+ 			compatible = "ti,j721e-serdes-10g";
+ 			reg = <0x0f010000 0x00010000>;
+diff --git a/arch/arm64/boot/dts/ti/k3-j784s4-j742s2-main-common.dtsi b/arch/arm64/boot/dts/ti/k3-j784s4-j742s2-main-common.dtsi
+index 1944616ab357..1fc0a11c5ab4 100644
+--- a/arch/arm64/boot/dts/ti/k3-j784s4-j742s2-main-common.dtsi
++++ b/arch/arm64/boot/dts/ti/k3-j784s4-j742s2-main-common.dtsi
+@@ -77,7 +77,7 @@ pcie1_ctrl: pcie1-ctrl@4074 {
+ 
+ 		serdes_ln_ctrl: mux-controller@4080 {
+ 			compatible = "reg-mux";
+-			reg = <0x00004080 0x30>;
++			reg = <0x00004080 0x50>;
+ 			#mux-control-cells = <1>;
+ 			mux-reg-masks = <0x0 0x3>, <0x4 0x3>, /* SERDES0 lane0/1 select */
+ 					<0x8 0x3>, <0xc 0x3>, /* SERDES0 lane2/3 select */
+diff --git a/arch/um/Makefile b/arch/um/Makefile
+index 1d36a613aad8..9ed792e565c9 100644
+--- a/arch/um/Makefile
++++ b/arch/um/Makefile
+@@ -154,5 +154,6 @@ MRPROPER_FILES += $(HOST_DIR)/include/generated
+ archclean:
+ 	@find . \( -name '*.bb' -o -name '*.bbg' -o -name '*.da' \
+ 		-o -name '*.gcov' \) -type f -print | xargs rm -f
++	$(Q)$(MAKE) -f $(srctree)/Makefile ARCH=$(HEADER_ARCH) clean
+ 
+ export HEADER_ARCH SUBARCH USER_CFLAGS CFLAGS_NO_HARDENING DEV_NULL_PATH
+diff --git a/drivers/char/tpm/tpm-buf.c b/drivers/char/tpm/tpm-buf.c
+index e49a19fea3bd..dc882fc9fa9e 100644
+--- a/drivers/char/tpm/tpm-buf.c
++++ b/drivers/char/tpm/tpm-buf.c
+@@ -201,7 +201,7 @@ static void tpm_buf_read(struct tpm_buf *buf, off_t *offset, size_t count, void
+  */
+ u8 tpm_buf_read_u8(struct tpm_buf *buf, off_t *offset)
+ {
+-	u8 value;
++	u8 value = 0;
+ 
+ 	tpm_buf_read(buf, offset, sizeof(value), &value);
+ 
+@@ -218,7 +218,7 @@ EXPORT_SYMBOL_GPL(tpm_buf_read_u8);
+  */
+ u16 tpm_buf_read_u16(struct tpm_buf *buf, off_t *offset)
+ {
+-	u16 value;
++	u16 value = 0;
+ 
+ 	tpm_buf_read(buf, offset, sizeof(value), &value);
+ 
+@@ -235,7 +235,7 @@ EXPORT_SYMBOL_GPL(tpm_buf_read_u16);
+  */
+ u32 tpm_buf_read_u32(struct tpm_buf *buf, off_t *offset)
+ {
+-	u32 value;
++	u32 value = 0;
+ 
+ 	tpm_buf_read(buf, offset, sizeof(value), &value);
+ 
+diff --git a/drivers/dma/idxd/cdev.c b/drivers/dma/idxd/cdev.c
+index cd57067e8218..6d12033649f8 100644
+--- a/drivers/dma/idxd/cdev.c
++++ b/drivers/dma/idxd/cdev.c
+@@ -222,7 +222,7 @@ static int idxd_cdev_open(struct inode *inode, struct file *filp)
+ 	struct idxd_wq *wq;
+ 	struct device *dev, *fdev;
+ 	int rc = 0;
+-	struct iommu_sva *sva;
++	struct iommu_sva *sva = NULL;
+ 	unsigned int pasid;
+ 	struct idxd_cdev *idxd_cdev;
+ 
+@@ -317,7 +317,7 @@ static int idxd_cdev_open(struct inode *inode, struct file *filp)
+ 	if (device_user_pasid_enabled(idxd))
+ 		idxd_xa_pasid_remove(ctx);
+ failed_get_pasid:
+-	if (device_user_pasid_enabled(idxd))
++	if (device_user_pasid_enabled(idxd) && !IS_ERR_OR_NULL(sva))
+ 		iommu_sva_unbind_device(sva);
+ failed:
+ 	mutex_unlock(&wq->wq_lock);
+diff --git a/drivers/gpio/gpio-virtuser.c b/drivers/gpio/gpio-virtuser.c
+index e89f299f2140..dcecb7a25911 100644
+--- a/drivers/gpio/gpio-virtuser.c
++++ b/drivers/gpio/gpio-virtuser.c
+@@ -400,10 +400,15 @@ static ssize_t gpio_virtuser_direction_do_write(struct file *file,
+ 	char buf[32], *trimmed;
+ 	int ret, dir, val = 0;
+ 
+-	ret = simple_write_to_buffer(buf, sizeof(buf), ppos, user_buf, count);
++	if (count >= sizeof(buf))
++		return -EINVAL;
++
++	ret = simple_write_to_buffer(buf, sizeof(buf) - 1, ppos, user_buf, count);
+ 	if (ret < 0)
+ 		return ret;
+ 
++	buf[ret] = '\0';
++
+ 	trimmed = strim(buf);
+ 
+ 	if (strcmp(trimmed, "input") == 0) {
+@@ -622,12 +627,15 @@ static ssize_t gpio_virtuser_consumer_write(struct file *file,
+ 	char buf[GPIO_VIRTUSER_NAME_BUF_LEN + 2];
+ 	int ret;
+ 
++	if (count >= sizeof(buf))
++		return -EINVAL;
++
+ 	ret = simple_write_to_buffer(buf, GPIO_VIRTUSER_NAME_BUF_LEN, ppos,
+ 				     user_buf, count);
+ 	if (ret < 0)
+ 		return ret;
+ 
+-	buf[strlen(buf) - 1] = '\0';
++	buf[ret] = '\0';
+ 
+ 	ret = gpiod_set_consumer_name(data->ad.desc, buf);
+ 	if (ret)
+diff --git a/drivers/gpu/drm/amd/display/dc/dml2/dml21/dml21_translation_helper.c b/drivers/gpu/drm/amd/display/dc/dml2/dml21/dml21_translation_helper.c
+index 0c8ec30ea672..731fbd4bc600 100644
+--- a/drivers/gpu/drm/amd/display/dc/dml2/dml21/dml21_translation_helper.c
++++ b/drivers/gpu/drm/amd/display/dc/dml2/dml21/dml21_translation_helper.c
+@@ -910,7 +910,7 @@ static void populate_dml21_plane_config_from_plane_state(struct dml2_context *dm
+ }
+ 
+ //TODO : Could be possibly moved to a common helper layer.
+-static bool dml21_wrapper_get_plane_id(const struct dc_state *context, const struct dc_plane_state *plane, unsigned int *plane_id)
++static bool dml21_wrapper_get_plane_id(const struct dc_state *context, unsigned int stream_id, const struct dc_plane_state *plane, unsigned int *plane_id)
+ {
+ 	int i, j;
+ 
+@@ -918,10 +918,12 @@ static bool dml21_wrapper_get_plane_id(const struct dc_state *context, const str
+ 		return false;
+ 
+ 	for (i = 0; i < context->stream_count; i++) {
+-		for (j = 0; j < context->stream_status[i].plane_count; j++) {
+-			if (context->stream_status[i].plane_states[j] == plane) {
+-				*plane_id = (i << 16) | j;
+-				return true;
++		if (context->streams[i]->stream_id == stream_id) {
++			for (j = 0; j < context->stream_status[i].plane_count; j++) {
++				if (context->stream_status[i].plane_states[j] == plane) {
++					*plane_id = (i << 16) | j;
++					return true;
++				}
+ 			}
+ 		}
+ 	}
+@@ -944,14 +946,14 @@ static unsigned int map_stream_to_dml21_display_cfg(const struct dml2_context *d
+ 	return location;
+ }
+ 
+-static unsigned int map_plane_to_dml21_display_cfg(const struct dml2_context *dml_ctx,
++static unsigned int map_plane_to_dml21_display_cfg(const struct dml2_context *dml_ctx, unsigned int stream_id,
+ 		const struct dc_plane_state *plane, const struct dc_state *context)
+ {
+ 	unsigned int plane_id;
+ 	int i = 0;
+ 	int location = -1;
+ 
+-	if (!dml21_wrapper_get_plane_id(context, plane, &plane_id)) {
++	if (!dml21_wrapper_get_plane_id(context, stream_id, plane, &plane_id)) {
+ 		ASSERT(false);
+ 		return -1;
+ 	}
+@@ -1037,7 +1039,7 @@ bool dml21_map_dc_state_into_dml_display_cfg(const struct dc *in_dc, struct dc_s
+ 			dml_dispcfg->plane_descriptors[disp_cfg_plane_location].stream_index = disp_cfg_stream_location;
+ 		} else {
+ 			for (plane_index = 0; plane_index < context->stream_status[stream_index].plane_count; plane_index++) {
+-				disp_cfg_plane_location = map_plane_to_dml21_display_cfg(dml_ctx, context->stream_status[stream_index].plane_states[plane_index], context);
++				disp_cfg_plane_location = map_plane_to_dml21_display_cfg(dml_ctx, context->streams[stream_index]->stream_id, context->stream_status[stream_index].plane_states[plane_index], context);
+ 
+ 				if (disp_cfg_plane_location < 0)
+ 					disp_cfg_plane_location = dml_dispcfg->num_planes++;
+@@ -1048,7 +1050,7 @@ bool dml21_map_dc_state_into_dml_display_cfg(const struct dc *in_dc, struct dc_s
+ 				populate_dml21_plane_config_from_plane_state(dml_ctx, &dml_dispcfg->plane_descriptors[disp_cfg_plane_location], context->stream_status[stream_index].plane_states[plane_index], context, stream_index);
+ 				dml_dispcfg->plane_descriptors[disp_cfg_plane_location].stream_index = disp_cfg_stream_location;
+ 
+-				if (dml21_wrapper_get_plane_id(context, context->stream_status[stream_index].plane_states[plane_index], &dml_ctx->v21.dml_to_dc_pipe_mapping.disp_cfg_to_plane_id[disp_cfg_plane_location]))
++				if (dml21_wrapper_get_plane_id(context, context->streams[stream_index]->stream_id, context->stream_status[stream_index].plane_states[plane_index], &dml_ctx->v21.dml_to_dc_pipe_mapping.disp_cfg_to_plane_id[disp_cfg_plane_location]))
+ 					dml_ctx->v21.dml_to_dc_pipe_mapping.disp_cfg_to_plane_id_valid[disp_cfg_plane_location] = true;
+ 
+ 				/* apply forced pstate policy */
+diff --git a/drivers/gpu/drm/amd/display/dc/link/link_dpms.c b/drivers/gpu/drm/amd/display/dc/link/link_dpms.c
+index ec7de9c01fab..e95ec72b4096 100644
+--- a/drivers/gpu/drm/amd/display/dc/link/link_dpms.c
++++ b/drivers/gpu/drm/amd/display/dc/link/link_dpms.c
+@@ -148,6 +148,7 @@ void link_blank_dp_stream(struct dc_link *link, bool hw_init)
+ void link_set_all_streams_dpms_off_for_link(struct dc_link *link)
+ {
+ 	struct pipe_ctx *pipes[MAX_PIPES];
++	struct dc_stream_state *streams[MAX_PIPES];
+ 	struct dc_state *state = link->dc->current_state;
+ 	uint8_t count;
+ 	int i;
+@@ -160,10 +161,18 @@ void link_set_all_streams_dpms_off_for_link(struct dc_link *link)
+ 
+ 	link_get_master_pipes_with_dpms_on(link, state, &count, pipes);
+ 
++	/* The subsequent call to dc_commit_updates_for_stream for a full update
++	 * will release the current state and swap to a new state. Releasing the
++	 * current state results in the stream pointers in the pipe_ctx structs
++	 * to be zero'd. Hence, cache all streams prior to dc_commit_updates_for_stream.
++	 */
++	for (i = 0; i < count; i++)
++		streams[i] = pipes[i]->stream;
++
+ 	for (i = 0; i < count; i++) {
+-		stream_update.stream = pipes[i]->stream;
++		stream_update.stream = streams[i];
+ 		dc_commit_updates_for_stream(link->ctx->dc, NULL, 0,
+-				pipes[i]->stream, &stream_update,
++				streams[i], &stream_update,
+ 				state);
+ 	}
+ 
+diff --git a/drivers/gpu/drm/xe/regs/xe_gt_regs.h b/drivers/gpu/drm/xe/regs/xe_gt_regs.h
+index d0ea8a55fd9c..ab95d3545a72 100644
+--- a/drivers/gpu/drm/xe/regs/xe_gt_regs.h
++++ b/drivers/gpu/drm/xe/regs/xe_gt_regs.h
+@@ -157,6 +157,7 @@
+ #define XEHPG_SC_INSTDONE_EXTRA2		XE_REG_MCR(0x7108)
+ 
+ #define COMMON_SLICE_CHICKEN4			XE_REG(0x7300, XE_REG_OPTION_MASKED)
++#define   SBE_PUSH_CONSTANT_BEHIND_FIX_ENABLE	REG_BIT(12)
+ #define   DISABLE_TDC_LOAD_BALANCING_CALC	REG_BIT(6)
+ 
+ #define COMMON_SLICE_CHICKEN3				XE_REG(0x7304, XE_REG_OPTION_MASKED)
+diff --git a/drivers/gpu/drm/xe/xe_lrc.c b/drivers/gpu/drm/xe/xe_lrc.c
+index 2a953c4f7d5d..5d7629bb6b8d 100644
+--- a/drivers/gpu/drm/xe/xe_lrc.c
++++ b/drivers/gpu/drm/xe/xe_lrc.c
+@@ -864,7 +864,7 @@ static void *empty_lrc_data(struct xe_hw_engine *hwe)
+ 
+ static void xe_lrc_set_ppgtt(struct xe_lrc *lrc, struct xe_vm *vm)
+ {
+-	u64 desc = xe_vm_pdp4_descriptor(vm, lrc->tile);
++	u64 desc = xe_vm_pdp4_descriptor(vm, gt_to_tile(lrc->gt));
+ 
+ 	xe_lrc_write_ctx_reg(lrc, CTX_PDP0_UDW, upper_32_bits(desc));
+ 	xe_lrc_write_ctx_reg(lrc, CTX_PDP0_LDW, lower_32_bits(desc));
+@@ -895,6 +895,7 @@ static int xe_lrc_init(struct xe_lrc *lrc, struct xe_hw_engine *hwe,
+ 	int err;
+ 
+ 	kref_init(&lrc->refcount);
++	lrc->gt = gt;
+ 	lrc->flags = 0;
+ 	lrc_size = ring_size + xe_gt_lrc_size(gt, hwe->class);
+ 	if (xe_gt_has_indirect_ring_state(gt))
+@@ -913,7 +914,6 @@ static int xe_lrc_init(struct xe_lrc *lrc, struct xe_hw_engine *hwe,
+ 		return PTR_ERR(lrc->bo);
+ 
+ 	lrc->size = lrc_size;
+-	lrc->tile = gt_to_tile(hwe->gt);
+ 	lrc->ring.size = ring_size;
+ 	lrc->ring.tail = 0;
+ 	lrc->ctx_timestamp = 0;
+diff --git a/drivers/gpu/drm/xe/xe_lrc_types.h b/drivers/gpu/drm/xe/xe_lrc_types.h
+index 71ecb453f811..cd38586ae989 100644
+--- a/drivers/gpu/drm/xe/xe_lrc_types.h
++++ b/drivers/gpu/drm/xe/xe_lrc_types.h
+@@ -25,8 +25,8 @@ struct xe_lrc {
+ 	/** @size: size of lrc including any indirect ring state page */
+ 	u32 size;
+ 
+-	/** @tile: tile which this LRC belongs to */
+-	struct xe_tile *tile;
++	/** @gt: gt which this LRC belongs to */
++	struct xe_gt *gt;
+ 
+ 	/** @flags: LRC flags */
+ #define XE_LRC_FLAG_INDIRECT_RING_STATE		0x1
+diff --git a/drivers/gpu/drm/xe/xe_wa.c b/drivers/gpu/drm/xe/xe_wa.c
+index 65bfb2f894d0..56257430b364 100644
+--- a/drivers/gpu/drm/xe/xe_wa.c
++++ b/drivers/gpu/drm/xe/xe_wa.c
+@@ -801,6 +801,10 @@ static const struct xe_rtp_entry_sr lrc_was[] = {
+ 	  XE_RTP_RULES(GRAPHICS_VERSION(2001), ENGINE_CLASS(RENDER)),
+ 	  XE_RTP_ACTIONS(SET(CHICKEN_RASTER_1, DIS_CLIP_NEGATIVE_BOUNDING_BOX))
+ 	},
++	{ XE_RTP_NAME("22021007897"),
++	  XE_RTP_RULES(GRAPHICS_VERSION(2001), ENGINE_CLASS(RENDER)),
++	  XE_RTP_ACTIONS(SET(COMMON_SLICE_CHICKEN4, SBE_PUSH_CONSTANT_BEHIND_FIX_ENABLE))
++	},
+ 
+ 	/* Xe3_LPG */
+ 	{ XE_RTP_NAME("14021490052"),
+diff --git a/drivers/hid/amd-sfh-hid/sfh1_1/amd_sfh_init.c b/drivers/hid/amd-sfh-hid/sfh1_1/amd_sfh_init.c
+index a02969fd5068..08acc707938d 100644
+--- a/drivers/hid/amd-sfh-hid/sfh1_1/amd_sfh_init.c
++++ b/drivers/hid/amd-sfh-hid/sfh1_1/amd_sfh_init.c
+@@ -83,6 +83,9 @@ static int amd_sfh_hid_client_deinit(struct amd_mp2_dev *privdata)
+ 		case ALS_IDX:
+ 			privdata->dev_en.is_als_present = false;
+ 			break;
++		case SRA_IDX:
++			privdata->dev_en.is_sra_present = false;
++			break;
+ 		}
+ 
+ 		if (cl_data->sensor_sts[i] == SENSOR_ENABLED) {
+@@ -235,6 +238,8 @@ static int amd_sfh1_1_hid_client_init(struct amd_mp2_dev *privdata)
+ cleanup:
+ 	amd_sfh_hid_client_deinit(privdata);
+ 	for (i = 0; i < cl_data->num_hid_devices; i++) {
++		if (cl_data->sensor_idx[i] == SRA_IDX)
++			continue;
+ 		devm_kfree(dev, cl_data->feature_report[i]);
+ 		devm_kfree(dev, in_data->input_report[i]);
+ 		devm_kfree(dev, cl_data->report_descr[i]);
+diff --git a/drivers/hid/hid-ids.h b/drivers/hid/hid-ids.h
+index 288a2b864cc4..1062731315a2 100644
+--- a/drivers/hid/hid-ids.h
++++ b/drivers/hid/hid-ids.h
+@@ -41,6 +41,10 @@
+ #define USB_VENDOR_ID_ACTIONSTAR	0x2101
+ #define USB_DEVICE_ID_ACTIONSTAR_1011	0x1011
+ 
++#define USB_VENDOR_ID_ADATA_XPG 0x125f
++#define USB_VENDOR_ID_ADATA_XPG_WL_GAMING_MOUSE 0x7505
++#define USB_VENDOR_ID_ADATA_XPG_WL_GAMING_MOUSE_DONGLE 0x7506
++
+ #define USB_VENDOR_ID_ADS_TECH		0x06e1
+ #define USB_DEVICE_ID_ADS_TECH_RADIO_SI470X	0xa155
+ 
+diff --git a/drivers/hid/hid-quirks.c b/drivers/hid/hid-quirks.c
+index 5d7a418ccdbe..73979643315b 100644
+--- a/drivers/hid/hid-quirks.c
++++ b/drivers/hid/hid-quirks.c
+@@ -27,6 +27,8 @@
+ static const struct hid_device_id hid_quirks[] = {
+ 	{ HID_USB_DEVICE(USB_VENDOR_ID_AASHIMA, USB_DEVICE_ID_AASHIMA_GAMEPAD), HID_QUIRK_BADPAD },
+ 	{ HID_USB_DEVICE(USB_VENDOR_ID_AASHIMA, USB_DEVICE_ID_AASHIMA_PREDATOR), HID_QUIRK_BADPAD },
++	{ HID_USB_DEVICE(USB_VENDOR_ID_ADATA_XPG, USB_VENDOR_ID_ADATA_XPG_WL_GAMING_MOUSE), HID_QUIRK_ALWAYS_POLL },
++	{ HID_USB_DEVICE(USB_VENDOR_ID_ADATA_XPG, USB_VENDOR_ID_ADATA_XPG_WL_GAMING_MOUSE_DONGLE), HID_QUIRK_ALWAYS_POLL },
+ 	{ HID_USB_DEVICE(USB_VENDOR_ID_AFATECH, USB_DEVICE_ID_AFATECH_AF9016), HID_QUIRK_FULLSPEED_INTERVAL },
+ 	{ HID_USB_DEVICE(USB_VENDOR_ID_AIREN, USB_DEVICE_ID_AIREN_SLIMPLUS), HID_QUIRK_NOGET },
+ 	{ HID_USB_DEVICE(USB_VENDOR_ID_AKAI_09E8, USB_DEVICE_ID_AKAI_09E8_MIDIMIX), HID_QUIRK_NO_INIT_REPORTS },
+diff --git a/drivers/iommu/iommu.c b/drivers/iommu/iommu.c
+index 3a2804a98203..6e59b2c4c39b 100644
+--- a/drivers/iommu/iommu.c
++++ b/drivers/iommu/iommu.c
+@@ -273,6 +273,8 @@ int iommu_device_register(struct iommu_device *iommu,
+ 		err = bus_iommu_probe(iommu_buses[i]);
+ 	if (err)
+ 		iommu_device_unregister(iommu);
++	else
++		WRITE_ONCE(iommu->ready, true);
+ 	return err;
+ }
+ EXPORT_SYMBOL_GPL(iommu_device_register);
+@@ -2801,31 +2803,39 @@ bool iommu_default_passthrough(void)
+ }
+ EXPORT_SYMBOL_GPL(iommu_default_passthrough);
+ 
+-const struct iommu_ops *iommu_ops_from_fwnode(const struct fwnode_handle *fwnode)
++static const struct iommu_device *iommu_from_fwnode(const struct fwnode_handle *fwnode)
+ {
+-	const struct iommu_ops *ops = NULL;
+-	struct iommu_device *iommu;
++	const struct iommu_device *iommu, *ret = NULL;
+ 
+ 	spin_lock(&iommu_device_lock);
+ 	list_for_each_entry(iommu, &iommu_device_list, list)
+ 		if (iommu->fwnode == fwnode) {
+-			ops = iommu->ops;
++			ret = iommu;
+ 			break;
+ 		}
+ 	spin_unlock(&iommu_device_lock);
+-	return ops;
++	return ret;
++}
++
++const struct iommu_ops *iommu_ops_from_fwnode(const struct fwnode_handle *fwnode)
++{
++	const struct iommu_device *iommu = iommu_from_fwnode(fwnode);
++
++	return iommu ? iommu->ops : NULL;
+ }
+ 
+ int iommu_fwspec_init(struct device *dev, struct fwnode_handle *iommu_fwnode)
+ {
+-	const struct iommu_ops *ops = iommu_ops_from_fwnode(iommu_fwnode);
++	const struct iommu_device *iommu = iommu_from_fwnode(iommu_fwnode);
+ 	struct iommu_fwspec *fwspec = dev_iommu_fwspec_get(dev);
+ 
+-	if (!ops)
++	if (!iommu)
+ 		return driver_deferred_probe_check_state(dev);
++	if (!dev->iommu && !READ_ONCE(iommu->ready))
++		return -EPROBE_DEFER;
+ 
+ 	if (fwspec)
+-		return ops == iommu_fwspec_ops(fwspec) ? 0 : -EINVAL;
++		return iommu->ops == iommu_fwspec_ops(fwspec) ? 0 : -EINVAL;
+ 
+ 	if (!dev_iommu_get(dev))
+ 		return -ENOMEM;
+diff --git a/drivers/net/can/kvaser_pciefd.c b/drivers/net/can/kvaser_pciefd.c
+index 4f177ca1b998..efc40125593d 100644
+--- a/drivers/net/can/kvaser_pciefd.c
++++ b/drivers/net/can/kvaser_pciefd.c
+@@ -1673,24 +1673,28 @@ static int kvaser_pciefd_read_buffer(struct kvaser_pciefd *pcie, int dma_buf)
+ 	return res;
+ }
+ 
+-static u32 kvaser_pciefd_receive_irq(struct kvaser_pciefd *pcie)
++static void kvaser_pciefd_receive_irq(struct kvaser_pciefd *pcie)
+ {
++	void __iomem *srb_cmd_reg = KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_CMD_REG;
+ 	u32 irq = ioread32(KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_IRQ_REG);
+ 
+-	if (irq & KVASER_PCIEFD_SRB_IRQ_DPD0)
+-		kvaser_pciefd_read_buffer(pcie, 0);
++	iowrite32(irq, KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_IRQ_REG);
+ 
+-	if (irq & KVASER_PCIEFD_SRB_IRQ_DPD1)
++	if (irq & KVASER_PCIEFD_SRB_IRQ_DPD0) {
++		kvaser_pciefd_read_buffer(pcie, 0);
++		iowrite32(KVASER_PCIEFD_SRB_CMD_RDB0, srb_cmd_reg); /* Rearm buffer */
++	}
++
++	if (irq & KVASER_PCIEFD_SRB_IRQ_DPD1) {
+ 		kvaser_pciefd_read_buffer(pcie, 1);
++		iowrite32(KVASER_PCIEFD_SRB_CMD_RDB1, srb_cmd_reg); /* Rearm buffer */
++	}
+ 
+ 	if (unlikely(irq & KVASER_PCIEFD_SRB_IRQ_DOF0 ||
+ 		     irq & KVASER_PCIEFD_SRB_IRQ_DOF1 ||
+ 		     irq & KVASER_PCIEFD_SRB_IRQ_DUF0 ||
+ 		     irq & KVASER_PCIEFD_SRB_IRQ_DUF1))
+ 		dev_err(&pcie->pci->dev, "DMA IRQ error 0x%08X\n", irq);
+-
+-	iowrite32(irq, KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_IRQ_REG);
+-	return irq;
+ }
+ 
+ static void kvaser_pciefd_transmit_irq(struct kvaser_pciefd_can *can)
+@@ -1718,29 +1722,22 @@ static irqreturn_t kvaser_pciefd_irq_handler(int irq, void *dev)
+ 	struct kvaser_pciefd *pcie = (struct kvaser_pciefd *)dev;
+ 	const struct kvaser_pciefd_irq_mask *irq_mask = pcie->driver_data->irq_mask;
+ 	u32 pci_irq = ioread32(KVASER_PCIEFD_PCI_IRQ_ADDR(pcie));
+-	u32 srb_irq = 0;
+-	u32 srb_release = 0;
+ 	int i;
+ 
+ 	if (!(pci_irq & irq_mask->all))
+ 		return IRQ_NONE;
+ 
++	iowrite32(0, KVASER_PCIEFD_PCI_IEN_ADDR(pcie));
++
+ 	if (pci_irq & irq_mask->kcan_rx0)
+-		srb_irq = kvaser_pciefd_receive_irq(pcie);
++		kvaser_pciefd_receive_irq(pcie);
+ 
+ 	for (i = 0; i < pcie->nr_channels; i++) {
+ 		if (pci_irq & irq_mask->kcan_tx[i])
+ 			kvaser_pciefd_transmit_irq(pcie->can[i]);
+ 	}
+ 
+-	if (srb_irq & KVASER_PCIEFD_SRB_IRQ_DPD0)
+-		srb_release |= KVASER_PCIEFD_SRB_CMD_RDB0;
+-
+-	if (srb_irq & KVASER_PCIEFD_SRB_IRQ_DPD1)
+-		srb_release |= KVASER_PCIEFD_SRB_CMD_RDB1;
+-
+-	if (srb_release)
+-		iowrite32(srb_release, KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_CMD_REG);
++	iowrite32(irq_mask->all, KVASER_PCIEFD_PCI_IEN_ADDR(pcie));
+ 
+ 	return IRQ_HANDLED;
+ }
+@@ -1760,13 +1757,22 @@ static void kvaser_pciefd_teardown_can_ctrls(struct kvaser_pciefd *pcie)
+ 	}
+ }
+ 
++static void kvaser_pciefd_disable_irq_srcs(struct kvaser_pciefd *pcie)
++{
++	unsigned int i;
++
++	/* Masking PCI_IRQ is insufficient as running ISR will unmask it */
++	iowrite32(0, KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_IEN_REG);
++	for (i = 0; i < pcie->nr_channels; ++i)
++		iowrite32(0, pcie->can[i]->reg_base + KVASER_PCIEFD_KCAN_IEN_REG);
++}
++
+ static int kvaser_pciefd_probe(struct pci_dev *pdev,
+ 			       const struct pci_device_id *id)
+ {
+ 	int ret;
+ 	struct kvaser_pciefd *pcie;
+ 	const struct kvaser_pciefd_irq_mask *irq_mask;
+-	void __iomem *irq_en_base;
+ 
+ 	pcie = devm_kzalloc(&pdev->dev, sizeof(*pcie), GFP_KERNEL);
+ 	if (!pcie)
+@@ -1832,8 +1838,7 @@ static int kvaser_pciefd_probe(struct pci_dev *pdev,
+ 		  KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_IEN_REG);
+ 
+ 	/* Enable PCI interrupts */
+-	irq_en_base = KVASER_PCIEFD_PCI_IEN_ADDR(pcie);
+-	iowrite32(irq_mask->all, irq_en_base);
++	iowrite32(irq_mask->all, KVASER_PCIEFD_PCI_IEN_ADDR(pcie));
+ 	/* Ready the DMA buffers */
+ 	iowrite32(KVASER_PCIEFD_SRB_CMD_RDB0,
+ 		  KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_CMD_REG);
+@@ -1847,8 +1852,7 @@ static int kvaser_pciefd_probe(struct pci_dev *pdev,
+ 	return 0;
+ 
+ err_free_irq:
+-	/* Disable PCI interrupts */
+-	iowrite32(0, irq_en_base);
++	kvaser_pciefd_disable_irq_srcs(pcie);
+ 	free_irq(pcie->pci->irq, pcie);
+ 
+ err_pci_free_irq_vectors:
+@@ -1871,35 +1875,26 @@ static int kvaser_pciefd_probe(struct pci_dev *pdev,
+ 	return ret;
+ }
+ 
+-static void kvaser_pciefd_remove_all_ctrls(struct kvaser_pciefd *pcie)
+-{
+-	int i;
+-
+-	for (i = 0; i < pcie->nr_channels; i++) {
+-		struct kvaser_pciefd_can *can = pcie->can[i];
+-
+-		if (can) {
+-			iowrite32(0, can->reg_base + KVASER_PCIEFD_KCAN_IEN_REG);
+-			unregister_candev(can->can.dev);
+-			del_timer(&can->bec_poll_timer);
+-			kvaser_pciefd_pwm_stop(can);
+-			free_candev(can->can.dev);
+-		}
+-	}
+-}
+-
+ static void kvaser_pciefd_remove(struct pci_dev *pdev)
+ {
+ 	struct kvaser_pciefd *pcie = pci_get_drvdata(pdev);
++	unsigned int i;
+ 
+-	kvaser_pciefd_remove_all_ctrls(pcie);
++	for (i = 0; i < pcie->nr_channels; ++i) {
++		struct kvaser_pciefd_can *can = pcie->can[i];
+ 
+-	/* Disable interrupts */
+-	iowrite32(0, KVASER_PCIEFD_SRB_ADDR(pcie) + KVASER_PCIEFD_SRB_CTRL_REG);
+-	iowrite32(0, KVASER_PCIEFD_PCI_IEN_ADDR(pcie));
++		unregister_candev(can->can.dev);
++		del_timer(&can->bec_poll_timer);
++		kvaser_pciefd_pwm_stop(can);
++	}
+ 
++	kvaser_pciefd_disable_irq_srcs(pcie);
+ 	free_irq(pcie->pci->irq, pcie);
+ 	pci_free_irq_vectors(pcie->pci);
++
++	for (i = 0; i < pcie->nr_channels; ++i)
++		free_candev(pcie->can[i]->can.dev);
++
+ 	pci_iounmap(pdev, pcie->reg_base);
+ 	pci_release_regions(pdev);
+ 	pci_disable_device(pdev);
+diff --git a/drivers/net/ethernet/ti/am65-cpsw-nuss.c b/drivers/net/ethernet/ti/am65-cpsw-nuss.c
+index cac67babe455..114110740716 100644
+--- a/drivers/net/ethernet/ti/am65-cpsw-nuss.c
++++ b/drivers/net/ethernet/ti/am65-cpsw-nuss.c
+@@ -2775,7 +2775,7 @@ static int am65_cpsw_nuss_init_slave_ports(struct am65_cpsw_common *common)
+ 							port->slave.mac_addr);
+ 			if (!is_valid_ether_addr(port->slave.mac_addr)) {
+ 				eth_random_addr(port->slave.mac_addr);
+-				dev_err(dev, "Use random MAC address\n");
++				dev_info(dev, "Use random MAC address\n");
+ 			}
+ 		}
+ 
+diff --git a/drivers/nvme/host/core.c b/drivers/nvme/host/core.c
+index a27149e37a98..8863c9fcb4aa 100644
+--- a/drivers/nvme/host/core.c
++++ b/drivers/nvme/host/core.c
+@@ -2059,7 +2059,21 @@ static bool nvme_update_disk_info(struct nvme_ns *ns, struct nvme_id_ns *id,
+ 		if (id->nsfeat & NVME_NS_FEAT_ATOMICS && id->nawupf)
+ 			atomic_bs = (1 + le16_to_cpu(id->nawupf)) * bs;
+ 		else
+-			atomic_bs = (1 + ns->ctrl->subsys->awupf) * bs;
++			atomic_bs = (1 + ns->ctrl->awupf) * bs;
++
++		/*
++		 * Set subsystem atomic bs.
++		 */
++		if (ns->ctrl->subsys->atomic_bs) {
++			if (atomic_bs != ns->ctrl->subsys->atomic_bs) {
++				dev_err_ratelimited(ns->ctrl->device,
++					"%s: Inconsistent Atomic Write Size, Namespace will not be added: Subsystem=%d bytes, Controller/Namespace=%d bytes\n",
++					ns->disk ? ns->disk->disk_name : "?",
++					ns->ctrl->subsys->atomic_bs,
++					atomic_bs);
++			}
++		} else
++			ns->ctrl->subsys->atomic_bs = atomic_bs;
+ 
+ 		nvme_update_atomic_write_disk_info(ns, id, lim, bs, atomic_bs);
+ 	}
+@@ -2201,6 +2215,17 @@ static int nvme_update_ns_info_block(struct nvme_ns *ns,
+ 	nvme_set_chunk_sectors(ns, id, &lim);
+ 	if (!nvme_update_disk_info(ns, id, &lim))
+ 		capacity = 0;
++
++	/*
++	 * Validate the max atomic write size fits within the subsystem's
++	 * atomic write capabilities.
++	 */
++	if (lim.atomic_write_hw_max > ns->ctrl->subsys->atomic_bs) {
++		blk_mq_unfreeze_queue(ns->disk->queue, memflags);
++		ret = -ENXIO;
++		goto out;
++	}
++
+ 	nvme_config_discard(ns, &lim);
+ 	if (IS_ENABLED(CONFIG_BLK_DEV_ZONED) &&
+ 	    ns->head->ids.csi == NVME_CSI_ZNS)
+@@ -3031,7 +3056,6 @@ static int nvme_init_subsystem(struct nvme_ctrl *ctrl, struct nvme_id_ctrl *id)
+ 		kfree(subsys);
+ 		return -EINVAL;
+ 	}
+-	subsys->awupf = le16_to_cpu(id->awupf);
+ 	nvme_mpath_default_iopolicy(subsys);
+ 
+ 	subsys->dev.class = &nvme_subsys_class;
+@@ -3441,7 +3465,7 @@ static int nvme_init_identify(struct nvme_ctrl *ctrl)
+ 		dev_pm_qos_expose_latency_tolerance(ctrl->device);
+ 	else if (!ctrl->apst_enabled && prev_apst_enabled)
+ 		dev_pm_qos_hide_latency_tolerance(ctrl->device);
+-
++	ctrl->awupf = le16_to_cpu(id->awupf);
+ out_free:
+ 	kfree(id);
+ 	return ret;
+diff --git a/drivers/nvme/host/multipath.c b/drivers/nvme/host/multipath.c
+index f39823cde62c..ac17e650327f 100644
+--- a/drivers/nvme/host/multipath.c
++++ b/drivers/nvme/host/multipath.c
+@@ -638,7 +638,8 @@ int nvme_mpath_alloc_disk(struct nvme_ctrl *ctrl, struct nvme_ns_head *head)
+ 
+ 	blk_set_stacking_limits(&lim);
+ 	lim.dma_alignment = 3;
+-	lim.features |= BLK_FEAT_IO_STAT | BLK_FEAT_NOWAIT | BLK_FEAT_POLL;
++	lim.features |= BLK_FEAT_IO_STAT | BLK_FEAT_NOWAIT |
++		BLK_FEAT_POLL | BLK_FEAT_ATOMIC_WRITES;
+ 	if (head->ids.csi == NVME_CSI_ZNS)
+ 		lim.features |= BLK_FEAT_ZONED;
+ 
+diff --git a/drivers/nvme/host/nvme.h b/drivers/nvme/host/nvme.h
+index 7be92d07430e..3804f91b1942 100644
+--- a/drivers/nvme/host/nvme.h
++++ b/drivers/nvme/host/nvme.h
+@@ -410,6 +410,7 @@ struct nvme_ctrl {
+ 
+ 	enum nvme_ctrl_type cntrltype;
+ 	enum nvme_dctype dctype;
++	u16 awupf; /* 0's based value. */
+ };
+ 
+ static inline enum nvme_ctrl_state nvme_ctrl_state(struct nvme_ctrl *ctrl)
+@@ -442,11 +443,11 @@ struct nvme_subsystem {
+ 	u8			cmic;
+ 	enum nvme_subsys_type	subtype;
+ 	u16			vendor_id;
+-	u16			awupf;	/* 0's based awupf value. */
+ 	struct ida		ns_ida;
+ #ifdef CONFIG_NVME_MULTIPATH
+ 	enum nvme_iopolicy	iopolicy;
+ #endif
++	u32			atomic_bs;
+ };
+ 
+ /*
+diff --git a/drivers/nvme/host/pci.c b/drivers/nvme/host/pci.c
+index abd097eba662..28f560f86e91 100644
+--- a/drivers/nvme/host/pci.c
++++ b/drivers/nvme/host/pci.c
+@@ -3742,6 +3742,8 @@ static const struct pci_device_id nvme_id_table[] = {
+ 		.driver_data = NVME_QUIRK_NO_DEEPEST_PS, },
+ 	{ PCI_DEVICE(0x1e49, 0x0041),   /* ZHITAI TiPro7000 NVMe SSD */
+ 		.driver_data = NVME_QUIRK_NO_DEEPEST_PS, },
++	{ PCI_DEVICE(0x025e, 0xf1ac),   /* SOLIDIGM  P44 pro SSDPFKKW020X7  */
++		.driver_data = NVME_QUIRK_NO_DEEPEST_PS, },
+ 	{ PCI_DEVICE(0xc0a9, 0x540a),   /* Crucial P2 */
+ 		.driver_data = NVME_QUIRK_BOGUS_NID, },
+ 	{ PCI_DEVICE(0x1d97, 0x2263), /* Lexar NM610 */
+diff --git a/drivers/nvme/target/pci-epf.c b/drivers/nvme/target/pci-epf.c
+index fbc167f47d8a..17c0e5ee731a 100644
+--- a/drivers/nvme/target/pci-epf.c
++++ b/drivers/nvme/target/pci-epf.c
+@@ -596,9 +596,6 @@ static bool nvmet_pci_epf_should_raise_irq(struct nvmet_pci_epf_ctrl *ctrl,
+ 	struct nvmet_pci_epf_irq_vector *iv = cq->iv;
+ 	bool ret;
+ 
+-	if (!test_bit(NVMET_PCI_EPF_Q_IRQ_ENABLED, &cq->flags))
+-		return false;
+-
+ 	/* IRQ coalescing for the admin queue is not allowed. */
+ 	if (!cq->qid)
+ 		return true;
+@@ -625,7 +622,8 @@ static void nvmet_pci_epf_raise_irq(struct nvmet_pci_epf_ctrl *ctrl,
+ 	struct pci_epf *epf = nvme_epf->epf;
+ 	int ret = 0;
+ 
+-	if (!test_bit(NVMET_PCI_EPF_Q_LIVE, &cq->flags))
++	if (!test_bit(NVMET_PCI_EPF_Q_LIVE, &cq->flags) ||
++	    !test_bit(NVMET_PCI_EPF_Q_IRQ_ENABLED, &cq->flags))
+ 		return;
+ 
+ 	mutex_lock(&ctrl->irq_lock);
+@@ -656,7 +654,9 @@ static void nvmet_pci_epf_raise_irq(struct nvmet_pci_epf_ctrl *ctrl,
+ 	}
+ 
+ 	if (ret)
+-		dev_err(ctrl->dev, "Failed to raise IRQ (err=%d)\n", ret);
++		dev_err_ratelimited(ctrl->dev,
++				    "CQ[%u]: Failed to raise IRQ (err=%d)\n",
++				    cq->qid, ret);
+ 
+ unlock:
+ 	mutex_unlock(&ctrl->irq_lock);
+diff --git a/drivers/perf/arm-cmn.c b/drivers/perf/arm-cmn.c
+index ef959e66db7c..0ba0f545b118 100644
+--- a/drivers/perf/arm-cmn.c
++++ b/drivers/perf/arm-cmn.c
+@@ -727,8 +727,8 @@ static umode_t arm_cmn_event_attr_is_visible(struct kobject *kobj,
+ 
+ 		if ((chan == 5 && cmn->rsp_vc_num < 2) ||
+ 		    (chan == 6 && cmn->dat_vc_num < 2) ||
+-		    (chan == 7 && cmn->snp_vc_num < 2) ||
+-		    (chan == 8 && cmn->req_vc_num < 2))
++		    (chan == 7 && cmn->req_vc_num < 2) ||
++		    (chan == 8 && cmn->snp_vc_num < 2))
+ 			return 0;
+ 	}
+ 
+@@ -884,8 +884,8 @@ static umode_t arm_cmn_event_attr_is_visible(struct kobject *kobj,
+ 	_CMN_EVENT_XP(pub_##_name, (_event) | (4 << 5)),	\
+ 	_CMN_EVENT_XP(rsp2_##_name, (_event) | (5 << 5)),	\
+ 	_CMN_EVENT_XP(dat2_##_name, (_event) | (6 << 5)),	\
+-	_CMN_EVENT_XP(snp2_##_name, (_event) | (7 << 5)),	\
+-	_CMN_EVENT_XP(req2_##_name, (_event) | (8 << 5))
++	_CMN_EVENT_XP(req2_##_name, (_event) | (7 << 5)),	\
++	_CMN_EVENT_XP(snp2_##_name, (_event) | (8 << 5))
+ 
+ #define CMN_EVENT_XP_DAT(_name, _event)				\
+ 	_CMN_EVENT_XP_PORT(dat_##_name, (_event) | (3 << 5)),	\
+@@ -2557,6 +2557,7 @@ static int arm_cmn_probe(struct platform_device *pdev)
+ 
+ 	cmn->dev = &pdev->dev;
+ 	cmn->part = (unsigned long)device_get_match_data(cmn->dev);
++	cmn->cpu = cpumask_local_spread(0, dev_to_node(cmn->dev));
+ 	platform_set_drvdata(pdev, cmn);
+ 
+ 	if (cmn->part == PART_CMN600 && has_acpi_companion(cmn->dev)) {
+@@ -2584,7 +2585,6 @@ static int arm_cmn_probe(struct platform_device *pdev)
+ 	if (err)
+ 		return err;
+ 
+-	cmn->cpu = cpumask_local_spread(0, dev_to_node(cmn->dev));
+ 	cmn->pmu = (struct pmu) {
+ 		.module = THIS_MODULE,
+ 		.parent = cmn->dev,
+@@ -2650,6 +2650,7 @@ static const struct acpi_device_id arm_cmn_acpi_match[] = {
+ 	{ "ARMHC600", PART_CMN600 },
+ 	{ "ARMHC650" },
+ 	{ "ARMHC700" },
++	{ "ARMHC003" },
+ 	{}
+ };
+ MODULE_DEVICE_TABLE(acpi, arm_cmn_acpi_match);
+diff --git a/drivers/phy/rockchip/phy-rockchip-samsung-hdptx.c b/drivers/phy/rockchip/phy-rockchip-samsung-hdptx.c
+index 920abf6fa9bd..28a4235bfd5f 100644
+--- a/drivers/phy/rockchip/phy-rockchip-samsung-hdptx.c
++++ b/drivers/phy/rockchip/phy-rockchip-samsung-hdptx.c
+@@ -325,6 +325,8 @@ static const struct ropll_config ropll_tmds_cfg[] = {
+ 	  1, 1, 0, 0x20, 0x0c, 1, 0x0e, 0, 0, },
+ 	{ 650000, 162, 162, 1, 1, 11, 1, 1, 1, 1, 1, 1, 1, 54, 0, 16, 4, 1,
+ 	  1, 1, 0, 0x20, 0x0c, 1, 0x0e, 0, 0, },
++	{ 502500, 84, 84, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 11, 1, 4, 5,
++	  4, 11, 1, 0, 0x20, 0x0c, 1, 0x0e, 0, 0, },
+ 	{ 337500, 0x70, 0x70, 1, 1, 0xf, 1, 1, 1, 1, 1, 1, 1, 0x2, 0, 0x01, 5,
+ 	  1, 1, 1, 0, 0x20, 0x0c, 1, 0x0e, 0, 0, },
+ 	{ 400000, 100, 100, 1, 1, 11, 1, 1, 0, 1, 0, 1, 1, 0x9, 0, 0x05, 0,
+diff --git a/drivers/phy/starfive/phy-jh7110-usb.c b/drivers/phy/starfive/phy-jh7110-usb.c
+index cb5454fbe2c8..b505d89860b4 100644
+--- a/drivers/phy/starfive/phy-jh7110-usb.c
++++ b/drivers/phy/starfive/phy-jh7110-usb.c
+@@ -18,6 +18,8 @@
+ #include <linux/usb/of.h>
+ 
+ #define USB_125M_CLK_RATE		125000000
++#define USB_CLK_MODE_OFF		0x0
++#define USB_CLK_MODE_RX_NORMAL_PWR	BIT(1)
+ #define USB_LS_KEEPALIVE_OFF		0x4
+ #define USB_LS_KEEPALIVE_ENABLE		BIT(4)
+ 
+@@ -78,6 +80,7 @@ static int jh7110_usb2_phy_init(struct phy *_phy)
+ {
+ 	struct jh7110_usb2_phy *phy = phy_get_drvdata(_phy);
+ 	int ret;
++	unsigned int val;
+ 
+ 	ret = clk_set_rate(phy->usb_125m_clk, USB_125M_CLK_RATE);
+ 	if (ret)
+@@ -87,6 +90,10 @@ static int jh7110_usb2_phy_init(struct phy *_phy)
+ 	if (ret)
+ 		return ret;
+ 
++	val = readl(phy->regs + USB_CLK_MODE_OFF);
++	val |= USB_CLK_MODE_RX_NORMAL_PWR;
++	writel(val, phy->regs + USB_CLK_MODE_OFF);
++
+ 	return 0;
+ }
+ 
+diff --git a/drivers/platform/x86/fujitsu-laptop.c b/drivers/platform/x86/fujitsu-laptop.c
+index a0eae24ca9e6..162809140f68 100644
+--- a/drivers/platform/x86/fujitsu-laptop.c
++++ b/drivers/platform/x86/fujitsu-laptop.c
+@@ -17,13 +17,13 @@
+ /*
+  * fujitsu-laptop.c - Fujitsu laptop support, providing access to additional
+  * features made available on a range of Fujitsu laptops including the
+- * P2xxx/P5xxx/S6xxx/S7xxx series.
++ * P2xxx/P5xxx/S2xxx/S6xxx/S7xxx series.
+  *
+  * This driver implements a vendor-specific backlight control interface for
+  * Fujitsu laptops and provides support for hotkeys present on certain Fujitsu
+  * laptops.
+  *
+- * This driver has been tested on a Fujitsu Lifebook S6410, S7020 and
++ * This driver has been tested on a Fujitsu Lifebook S2110, S6410, S7020 and
+  * P8010.  It should work on most P-series and S-series Lifebooks, but
+  * YMMV.
+  *
+@@ -107,7 +107,11 @@
+ #define KEY2_CODE			0x411
+ #define KEY3_CODE			0x412
+ #define KEY4_CODE			0x413
+-#define KEY5_CODE			0x420
++#define KEY5_CODE			0x414
++#define KEY6_CODE			0x415
++#define KEY7_CODE			0x416
++#define KEY8_CODE			0x417
++#define KEY9_CODE			0x420
+ 
+ /* Hotkey ringbuffer limits */
+ #define MAX_HOTKEY_RINGBUFFER_SIZE	100
+@@ -560,7 +564,7 @@ static const struct key_entry keymap_default[] = {
+ 	{ KE_KEY, KEY2_CODE,            { KEY_PROG2 } },
+ 	{ KE_KEY, KEY3_CODE,            { KEY_PROG3 } },
+ 	{ KE_KEY, KEY4_CODE,            { KEY_PROG4 } },
+-	{ KE_KEY, KEY5_CODE,            { KEY_RFKILL } },
++	{ KE_KEY, KEY9_CODE,            { KEY_RFKILL } },
+ 	/* Soft keys read from status flags */
+ 	{ KE_KEY, FLAG_RFKILL,          { KEY_RFKILL } },
+ 	{ KE_KEY, FLAG_TOUCHPAD_TOGGLE, { KEY_TOUCHPAD_TOGGLE } },
+@@ -584,6 +588,18 @@ static const struct key_entry keymap_p8010[] = {
+ 	{ KE_END, 0 }
+ };
+ 
++static const struct key_entry keymap_s2110[] = {
++	{ KE_KEY, KEY1_CODE, { KEY_PROG1 } }, /* "A" */
++	{ KE_KEY, KEY2_CODE, { KEY_PROG2 } }, /* "B" */
++	{ KE_KEY, KEY3_CODE, { KEY_WWW } },   /* "Internet" */
++	{ KE_KEY, KEY4_CODE, { KEY_EMAIL } }, /* "E-mail" */
++	{ KE_KEY, KEY5_CODE, { KEY_STOPCD } },
++	{ KE_KEY, KEY6_CODE, { KEY_PLAYPAUSE } },
++	{ KE_KEY, KEY7_CODE, { KEY_PREVIOUSSONG } },
++	{ KE_KEY, KEY8_CODE, { KEY_NEXTSONG } },
++	{ KE_END, 0 }
++};
++
+ static const struct key_entry *keymap = keymap_default;
+ 
+ static int fujitsu_laptop_dmi_keymap_override(const struct dmi_system_id *id)
+@@ -621,6 +637,15 @@ static const struct dmi_system_id fujitsu_laptop_dmi_table[] = {
+ 		},
+ 		.driver_data = (void *)keymap_p8010
+ 	},
++	{
++		.callback = fujitsu_laptop_dmi_keymap_override,
++		.ident = "Fujitsu LifeBook S2110",
++		.matches = {
++			DMI_MATCH(DMI_SYS_VENDOR, "FUJITSU SIEMENS"),
++			DMI_MATCH(DMI_PRODUCT_NAME, "LIFEBOOK S2110"),
++		},
++		.driver_data = (void *)keymap_s2110
++	},
+ 	{}
+ };
+ 
+diff --git a/drivers/platform/x86/thinkpad_acpi.c b/drivers/platform/x86/thinkpad_acpi.c
+index 2ff38ca9ddb4..d0376ee1f8ce 100644
+--- a/drivers/platform/x86/thinkpad_acpi.c
++++ b/drivers/platform/x86/thinkpad_acpi.c
+@@ -232,6 +232,7 @@ enum tpacpi_hkey_event_t {
+ 	/* Thermal events */
+ 	TP_HKEY_EV_ALARM_BAT_HOT	= 0x6011, /* battery too hot */
+ 	TP_HKEY_EV_ALARM_BAT_XHOT	= 0x6012, /* battery critically hot */
++	TP_HKEY_EV_ALARM_BAT_LIM_CHANGE	= 0x6013, /* battery charge limit changed*/
+ 	TP_HKEY_EV_ALARM_SENSOR_HOT	= 0x6021, /* sensor too hot */
+ 	TP_HKEY_EV_ALARM_SENSOR_XHOT	= 0x6022, /* sensor critically hot */
+ 	TP_HKEY_EV_THM_TABLE_CHANGED	= 0x6030, /* windows; thermal table changed */
+@@ -3780,6 +3781,10 @@ static bool hotkey_notify_6xxx(const u32 hkey, bool *send_acpi_ev)
+ 		pr_alert("THERMAL EMERGENCY: battery is extremely hot!\n");
+ 		/* recommended action: immediate sleep/hibernate */
+ 		break;
++	case TP_HKEY_EV_ALARM_BAT_LIM_CHANGE:
++		pr_debug("Battery Info: battery charge threshold changed\n");
++		/* User changed charging threshold. No action needed */
++		return true;
+ 	case TP_HKEY_EV_ALARM_SENSOR_HOT:
+ 		pr_crit("THERMAL ALARM: a sensor reports something is too hot!\n");
+ 		/* recommended action: warn user through gui, that */
+@@ -11481,6 +11486,8 @@ static int __must_check __init get_thinkpad_model_data(
+ 		tp->vendor = PCI_VENDOR_ID_IBM;
+ 	else if (dmi_name_in_vendors("LENOVO"))
+ 		tp->vendor = PCI_VENDOR_ID_LENOVO;
++	else if (dmi_name_in_vendors("NEC"))
++		tp->vendor = PCI_VENDOR_ID_LENOVO;
+ 	else
+ 		return 0;
+ 
+diff --git a/drivers/spi/spi-sun4i.c b/drivers/spi/spi-sun4i.c
+index fcbe864c9b7d..4b070377e3d1 100644
+--- a/drivers/spi/spi-sun4i.c
++++ b/drivers/spi/spi-sun4i.c
+@@ -264,6 +264,9 @@ static int sun4i_spi_transfer_one(struct spi_controller *host,
+ 	else
+ 		reg |= SUN4I_CTL_DHB;
+ 
++	/* Now that the settings are correct, enable the interface */
++	reg |= SUN4I_CTL_ENABLE;
++
+ 	sun4i_spi_write(sspi, SUN4I_CTL_REG, reg);
+ 
+ 	/* Ensure that we have a parent clock fast enough */
+@@ -404,7 +407,7 @@ static int sun4i_spi_runtime_resume(struct device *dev)
+ 	}
+ 
+ 	sun4i_spi_write(sspi, SUN4I_CTL_REG,
+-			SUN4I_CTL_ENABLE | SUN4I_CTL_MASTER | SUN4I_CTL_TP);
++			SUN4I_CTL_MASTER | SUN4I_CTL_TP);
+ 
+ 	return 0;
+ 
+diff --git a/fs/coredump.c b/fs/coredump.c
+index 4ebec51fe4f2..d56f5421e62c 100644
+--- a/fs/coredump.c
++++ b/fs/coredump.c
+@@ -43,6 +43,8 @@
+ #include <linux/timekeeping.h>
+ #include <linux/sysctl.h>
+ #include <linux/elf.h>
++#include <linux/pidfs.h>
++#include <uapi/linux/pidfd.h>
+ 
+ #include <linux/uaccess.h>
+ #include <asm/mmu_context.h>
+@@ -60,6 +62,12 @@ static void free_vma_snapshot(struct coredump_params *cprm);
+ #define CORE_FILE_NOTE_SIZE_DEFAULT (4*1024*1024)
+ /* Define a reasonable max cap */
+ #define CORE_FILE_NOTE_SIZE_MAX (16*1024*1024)
++/*
++ * File descriptor number for the pidfd for the thread-group leader of
++ * the coredumping task installed into the usermode helper's file
++ * descriptor table.
++ */
++#define COREDUMP_PIDFD_NUMBER 3
+ 
+ static int core_uses_pid;
+ static unsigned int core_pipe_limit;
+@@ -339,6 +347,27 @@ static int format_corename(struct core_name *cn, struct coredump_params *cprm,
+ 			case 'C':
+ 				err = cn_printf(cn, "%d", cprm->cpu);
+ 				break;
++			/* pidfd number */
++			case 'F': {
++				/*
++				 * Installing a pidfd only makes sense if
++				 * we actually spawn a usermode helper.
++				 */
++				if (!ispipe)
++					break;
++
++				/*
++				 * Note that we'll install a pidfd for the
++				 * thread-group leader. We know that task
++				 * linkage hasn't been removed yet and even if
++				 * this @current isn't the actual thread-group
++				 * leader we know that the thread-group leader
++				 * cannot be reaped until @current has exited.
++				 */
++				cprm->pid = task_tgid(current);
++				err = cn_printf(cn, "%d", COREDUMP_PIDFD_NUMBER);
++				break;
++			}
+ 			default:
+ 				break;
+ 			}
+@@ -493,7 +522,7 @@ static void wait_for_dump_helpers(struct file *file)
+ }
+ 
+ /*
+- * umh_pipe_setup
++ * umh_coredump_setup
+  * helper function to customize the process used
+  * to collect the core in userspace.  Specifically
+  * it sets up a pipe and installs it as fd 0 (stdin)
+@@ -503,11 +532,32 @@ static void wait_for_dump_helpers(struct file *file)
+  * is a special value that we use to trap recursive
+  * core dumps
+  */
+-static int umh_pipe_setup(struct subprocess_info *info, struct cred *new)
++static int umh_coredump_setup(struct subprocess_info *info, struct cred *new)
+ {
+ 	struct file *files[2];
+ 	struct coredump_params *cp = (struct coredump_params *)info->data;
+-	int err = create_pipe_files(files, 0);
++	int err;
++
++	if (cp->pid) {
++		struct file *pidfs_file __free(fput) = NULL;
++
++		pidfs_file = pidfs_alloc_file(cp->pid, O_RDWR);
++		if (IS_ERR(pidfs_file))
++			return PTR_ERR(pidfs_file);
++
++		/*
++		 * Usermode helpers are childen of either
++		 * system_unbound_wq or of kthreadd. So we know that
++		 * we're starting off with a clean file descriptor
++		 * table. So we should always be able to use
++		 * COREDUMP_PIDFD_NUMBER as our file descriptor value.
++		 */
++		err = replace_fd(COREDUMP_PIDFD_NUMBER, pidfs_file, 0);
++		if (err < 0)
++			return err;
++	}
++
++	err = create_pipe_files(files, 0);
+ 	if (err)
+ 		return err;
+ 
+@@ -515,10 +565,13 @@ static int umh_pipe_setup(struct subprocess_info *info, struct cred *new)
+ 
+ 	err = replace_fd(0, files[0], 0);
+ 	fput(files[0]);
++	if (err < 0)
++		return err;
++
+ 	/* and disallow core files too */
+ 	current->signal->rlim[RLIMIT_CORE] = (struct rlimit){1, 1};
+ 
+-	return err;
++	return 0;
+ }
+ 
+ void do_coredump(const kernel_siginfo_t *siginfo)
+@@ -593,7 +646,7 @@ void do_coredump(const kernel_siginfo_t *siginfo)
+ 		}
+ 
+ 		if (cprm.limit == 1) {
+-			/* See umh_pipe_setup() which sets RLIMIT_CORE = 1.
++			/* See umh_coredump_setup() which sets RLIMIT_CORE = 1.
+ 			 *
+ 			 * Normally core limits are irrelevant to pipes, since
+ 			 * we're not writing to the file system, but we use
+@@ -632,7 +685,7 @@ void do_coredump(const kernel_siginfo_t *siginfo)
+ 		retval = -ENOMEM;
+ 		sub_info = call_usermodehelper_setup(helper_argv[0],
+ 						helper_argv, NULL, GFP_KERNEL,
+-						umh_pipe_setup, NULL, &cprm);
++						umh_coredump_setup, NULL, &cprm);
+ 		if (sub_info)
+ 			retval = call_usermodehelper_exec(sub_info,
+ 							  UMH_WAIT_EXEC);
+diff --git a/fs/nfs/client.c b/fs/nfs/client.c
+index 3b0918ade53c..a10d39150abc 100644
+--- a/fs/nfs/client.c
++++ b/fs/nfs/client.c
+@@ -1100,6 +1100,8 @@ struct nfs_server *nfs_create_server(struct fs_context *fc)
+ 		if (server->namelen == 0 || server->namelen > NFS2_MAXNAMLEN)
+ 			server->namelen = NFS2_MAXNAMLEN;
+ 	}
++	/* Linux 'subtree_check' borkenness mandates this setting */
++	server->fh_expire_type = NFS_FH_VOL_RENAME;
+ 
+ 	if (!(fattr->valid & NFS_ATTR_FATTR)) {
+ 		error = ctx->nfs_mod->rpc_ops->getattr(server, ctx->mntfh,
+diff --git a/fs/nfs/dir.c b/fs/nfs/dir.c
+index 2b04038b0e40..34f3471ce813 100644
+--- a/fs/nfs/dir.c
++++ b/fs/nfs/dir.c
+@@ -2678,6 +2678,18 @@ nfs_unblock_rename(struct rpc_task *task, struct nfs_renamedata *data)
+ 	unblock_revalidate(new_dentry);
+ }
+ 
++static bool nfs_rename_is_unsafe_cross_dir(struct dentry *old_dentry,
++					   struct dentry *new_dentry)
++{
++	struct nfs_server *server = NFS_SB(old_dentry->d_sb);
++
++	if (old_dentry->d_parent != new_dentry->d_parent)
++		return false;
++	if (server->fh_expire_type & NFS_FH_RENAME_UNSAFE)
++		return !(server->fh_expire_type & NFS_FH_NOEXPIRE_WITH_OPEN);
++	return true;
++}
++
+ /*
+  * RENAME
+  * FIXME: Some nfsds, like the Linux user space nfsd, may generate a
+@@ -2765,7 +2777,8 @@ int nfs_rename(struct mnt_idmap *idmap, struct inode *old_dir,
+ 
+ 	}
+ 
+-	if (S_ISREG(old_inode->i_mode))
++	if (S_ISREG(old_inode->i_mode) &&
++	    nfs_rename_is_unsafe_cross_dir(old_dentry, new_dentry))
+ 		nfs_sync_inode(old_inode);
+ 	task = nfs_async_rename(old_dir, new_dir, old_dentry, new_dentry,
+ 				must_unblock ? nfs_unblock_rename : NULL);
+diff --git a/fs/nfs/filelayout/filelayoutdev.c b/fs/nfs/filelayout/filelayoutdev.c
+index 4fa304fa5bc4..29d9234d5c08 100644
+--- a/fs/nfs/filelayout/filelayoutdev.c
++++ b/fs/nfs/filelayout/filelayoutdev.c
+@@ -76,6 +76,7 @@ nfs4_fl_alloc_deviceid_node(struct nfs_server *server, struct pnfs_device *pdev,
+ 	struct page *scratch;
+ 	struct list_head dsaddrs;
+ 	struct nfs4_pnfs_ds_addr *da;
++	struct net *net = server->nfs_client->cl_net;
+ 
+ 	/* set up xdr stream */
+ 	scratch = alloc_page(gfp_flags);
+@@ -159,8 +160,7 @@ nfs4_fl_alloc_deviceid_node(struct nfs_server *server, struct pnfs_device *pdev,
+ 
+ 		mp_count = be32_to_cpup(p); /* multipath count */
+ 		for (j = 0; j < mp_count; j++) {
+-			da = nfs4_decode_mp_ds_addr(server->nfs_client->cl_net,
+-						    &stream, gfp_flags);
++			da = nfs4_decode_mp_ds_addr(net, &stream, gfp_flags);
+ 			if (da)
+ 				list_add_tail(&da->da_node, &dsaddrs);
+ 		}
+@@ -170,7 +170,7 @@ nfs4_fl_alloc_deviceid_node(struct nfs_server *server, struct pnfs_device *pdev,
+ 			goto out_err_free_deviceid;
+ 		}
+ 
+-		dsaddr->ds_list[i] = nfs4_pnfs_ds_add(&dsaddrs, gfp_flags);
++		dsaddr->ds_list[i] = nfs4_pnfs_ds_add(net, &dsaddrs, gfp_flags);
+ 		if (!dsaddr->ds_list[i])
+ 			goto out_err_drain_dsaddrs;
+ 		trace_fl_getdevinfo(server, &pdev->dev_id, dsaddr->ds_list[i]->ds_remotestr);
+diff --git a/fs/nfs/flexfilelayout/flexfilelayoutdev.c b/fs/nfs/flexfilelayout/flexfilelayoutdev.c
+index e58bedfb1dcc..4a304cf17c4b 100644
+--- a/fs/nfs/flexfilelayout/flexfilelayoutdev.c
++++ b/fs/nfs/flexfilelayout/flexfilelayoutdev.c
+@@ -49,6 +49,7 @@ nfs4_ff_alloc_deviceid_node(struct nfs_server *server, struct pnfs_device *pdev,
+ 	struct nfs4_pnfs_ds_addr *da;
+ 	struct nfs4_ff_layout_ds *new_ds = NULL;
+ 	struct nfs4_ff_ds_version *ds_versions = NULL;
++	struct net *net = server->nfs_client->cl_net;
+ 	u32 mp_count;
+ 	u32 version_count;
+ 	__be32 *p;
+@@ -80,8 +81,7 @@ nfs4_ff_alloc_deviceid_node(struct nfs_server *server, struct pnfs_device *pdev,
+ 
+ 	for (i = 0; i < mp_count; i++) {
+ 		/* multipath ds */
+-		da = nfs4_decode_mp_ds_addr(server->nfs_client->cl_net,
+-					    &stream, gfp_flags);
++		da = nfs4_decode_mp_ds_addr(net, &stream, gfp_flags);
+ 		if (da)
+ 			list_add_tail(&da->da_node, &dsaddrs);
+ 	}
+@@ -149,7 +149,7 @@ nfs4_ff_alloc_deviceid_node(struct nfs_server *server, struct pnfs_device *pdev,
+ 	new_ds->ds_versions = ds_versions;
+ 	new_ds->ds_versions_cnt = version_count;
+ 
+-	new_ds->ds = nfs4_pnfs_ds_add(&dsaddrs, gfp_flags);
++	new_ds->ds = nfs4_pnfs_ds_add(net, &dsaddrs, gfp_flags);
+ 	if (!new_ds->ds)
+ 		goto out_err_drain_dsaddrs;
+ 
+diff --git a/fs/nfs/pnfs.h b/fs/nfs/pnfs.h
+index 30d2613e912b..91ff877185c8 100644
+--- a/fs/nfs/pnfs.h
++++ b/fs/nfs/pnfs.h
+@@ -60,6 +60,7 @@ struct nfs4_pnfs_ds {
+ 	struct list_head	ds_node;  /* nfs4_pnfs_dev_hlist dev_dslist */
+ 	char			*ds_remotestr;	/* comma sep list of addrs */
+ 	struct list_head	ds_addrs;
++	const struct net	*ds_net;
+ 	struct nfs_client	*ds_clp;
+ 	refcount_t		ds_count;
+ 	unsigned long		ds_state;
+@@ -415,7 +416,8 @@ int pnfs_generic_commit_pagelist(struct inode *inode,
+ int pnfs_generic_scan_commit_lists(struct nfs_commit_info *cinfo, int max);
+ void pnfs_generic_write_commit_done(struct rpc_task *task, void *data);
+ void nfs4_pnfs_ds_put(struct nfs4_pnfs_ds *ds);
+-struct nfs4_pnfs_ds *nfs4_pnfs_ds_add(struct list_head *dsaddrs,
++struct nfs4_pnfs_ds *nfs4_pnfs_ds_add(const struct net *net,
++				      struct list_head *dsaddrs,
+ 				      gfp_t gfp_flags);
+ void nfs4_pnfs_v3_ds_connect_unload(void);
+ int nfs4_pnfs_ds_connect(struct nfs_server *mds_srv, struct nfs4_pnfs_ds *ds,
+diff --git a/fs/nfs/pnfs_nfs.c b/fs/nfs/pnfs_nfs.c
+index dbef837e871a..2ee20a0f0b36 100644
+--- a/fs/nfs/pnfs_nfs.c
++++ b/fs/nfs/pnfs_nfs.c
+@@ -604,12 +604,12 @@ _same_data_server_addrs_locked(const struct list_head *dsaddrs1,
+  * Lookup DS by addresses.  nfs4_ds_cache_lock is held
+  */
+ static struct nfs4_pnfs_ds *
+-_data_server_lookup_locked(const struct list_head *dsaddrs)
++_data_server_lookup_locked(const struct net *net, const struct list_head *dsaddrs)
+ {
+ 	struct nfs4_pnfs_ds *ds;
+ 
+ 	list_for_each_entry(ds, &nfs4_data_server_cache, ds_node)
+-		if (_same_data_server_addrs_locked(&ds->ds_addrs, dsaddrs))
++		if (ds->ds_net == net && _same_data_server_addrs_locked(&ds->ds_addrs, dsaddrs))
+ 			return ds;
+ 	return NULL;
+ }
+@@ -716,7 +716,7 @@ nfs4_pnfs_remotestr(struct list_head *dsaddrs, gfp_t gfp_flags)
+  * uncached and return cached struct nfs4_pnfs_ds.
+  */
+ struct nfs4_pnfs_ds *
+-nfs4_pnfs_ds_add(struct list_head *dsaddrs, gfp_t gfp_flags)
++nfs4_pnfs_ds_add(const struct net *net, struct list_head *dsaddrs, gfp_t gfp_flags)
+ {
+ 	struct nfs4_pnfs_ds *tmp_ds, *ds = NULL;
+ 	char *remotestr;
+@@ -734,13 +734,14 @@ nfs4_pnfs_ds_add(struct list_head *dsaddrs, gfp_t gfp_flags)
+ 	remotestr = nfs4_pnfs_remotestr(dsaddrs, gfp_flags);
+ 
+ 	spin_lock(&nfs4_ds_cache_lock);
+-	tmp_ds = _data_server_lookup_locked(dsaddrs);
++	tmp_ds = _data_server_lookup_locked(net, dsaddrs);
+ 	if (tmp_ds == NULL) {
+ 		INIT_LIST_HEAD(&ds->ds_addrs);
+ 		list_splice_init(dsaddrs, &ds->ds_addrs);
+ 		ds->ds_remotestr = remotestr;
+ 		refcount_set(&ds->ds_count, 1);
+ 		INIT_LIST_HEAD(&ds->ds_node);
++		ds->ds_net = net;
+ 		ds->ds_clp = NULL;
+ 		list_add(&ds->ds_node, &nfs4_data_server_cache);
+ 		dprintk("%s add new data server %s\n", __func__,
+diff --git a/fs/smb/server/oplock.c b/fs/smb/server/oplock.c
+index 03f606afad93..d7a8a580d013 100644
+--- a/fs/smb/server/oplock.c
++++ b/fs/smb/server/oplock.c
+@@ -146,12 +146,9 @@ static struct oplock_info *opinfo_get_list(struct ksmbd_inode *ci)
+ {
+ 	struct oplock_info *opinfo;
+ 
+-	if (list_empty(&ci->m_op_list))
+-		return NULL;
+-
+ 	down_read(&ci->m_lock);
+-	opinfo = list_first_entry(&ci->m_op_list, struct oplock_info,
+-					op_entry);
++	opinfo = list_first_entry_or_null(&ci->m_op_list, struct oplock_info,
++					  op_entry);
+ 	if (opinfo) {
+ 		if (opinfo->conn == NULL ||
+ 		    !atomic_inc_not_zero(&opinfo->refcount))
+diff --git a/include/linux/coredump.h b/include/linux/coredump.h
+index 77e6e195d1d6..76e41805b92d 100644
+--- a/include/linux/coredump.h
++++ b/include/linux/coredump.h
+@@ -28,6 +28,7 @@ struct coredump_params {
+ 	int vma_count;
+ 	size_t vma_data_size;
+ 	struct core_vma_metadata *vma_meta;
++	struct pid *pid;
+ };
+ 
+ extern unsigned int core_file_note_size_limit;
+diff --git a/include/linux/iommu.h b/include/linux/iommu.h
+index 87cbe47b323e..0ba67935f530 100644
+--- a/include/linux/iommu.h
++++ b/include/linux/iommu.h
+@@ -735,6 +735,7 @@ struct iommu_domain_ops {
+  * @dev: struct device for sysfs handling
+  * @singleton_group: Used internally for drivers that have only one group
+  * @max_pasids: number of supported PASIDs
++ * @ready: set once iommu_device_register() has completed successfully
+  */
+ struct iommu_device {
+ 	struct list_head list;
+@@ -743,6 +744,7 @@ struct iommu_device {
+ 	struct device *dev;
+ 	struct iommu_group *singleton_group;
+ 	u32 max_pasids;
++	bool ready;
+ };
+ 
+ /**
+diff --git a/include/linux/nfs_fs_sb.h b/include/linux/nfs_fs_sb.h
+index 108862d81b57..8baaad2dfbe4 100644
+--- a/include/linux/nfs_fs_sb.h
++++ b/include/linux/nfs_fs_sb.h
+@@ -210,6 +210,15 @@ struct nfs_server {
+ 	char			*fscache_uniq;	/* Uniquifier (or NULL) */
+ #endif
+ 
++	/* The following #defines numerically match the NFSv4 equivalents */
++#define NFS_FH_NOEXPIRE_WITH_OPEN (0x1)
++#define NFS_FH_VOLATILE_ANY (0x2)
++#define NFS_FH_VOL_MIGRATION (0x4)
++#define NFS_FH_VOL_RENAME (0x8)
++#define NFS_FH_RENAME_UNSAFE (NFS_FH_VOLATILE_ANY | NFS_FH_VOL_RENAME)
++	u32			fh_expire_type;	/* V4 bitmask representing file
++						   handle volatility type for
++						   this filesystem */
+ 	u32			pnfs_blksize;	/* layout_blksize attr */
+ #if IS_ENABLED(CONFIG_NFS_V4)
+ 	u32			attr_bitmask[3];/* V4 bitmask representing the set
+@@ -233,9 +242,6 @@ struct nfs_server {
+ 	u32			acl_bitmask;	/* V4 bitmask representing the ACEs
+ 						   that are supported on this
+ 						   filesystem */
+-	u32			fh_expire_type;	/* V4 bitmask representing file
+-						   handle volatility type for
+-						   this filesystem */
+ 	struct pnfs_layoutdriver_type  *pnfs_curr_ld; /* Active layout driver */
+ 	struct rpc_wait_queue	roc_rpcwaitq;
+ 	void			*pnfs_ld_data;	/* per mount point data */
+diff --git a/kernel/module/Kconfig b/kernel/module/Kconfig
+index d7762ef5949a..39278737bb68 100644
+--- a/kernel/module/Kconfig
++++ b/kernel/module/Kconfig
+@@ -192,6 +192,11 @@ config GENDWARFKSYMS
+ 	depends on !DEBUG_INFO_REDUCED && !DEBUG_INFO_SPLIT
+ 	# Requires ELF object files.
+ 	depends on !LTO
++	# To avoid conflicts with the discarded __gendwarfksyms_ptr symbols on
++	# X86, requires pahole before commit 47dcb534e253 ("btf_encoder: Stop
++	# indexing symbols for VARs") or after commit 9810758003ce ("btf_encoder:
++	# Verify 0 address DWARF variables are in ELF section").
++	depends on !X86 || !DEBUG_INFO_BTF || PAHOLE_VERSION < 128 || PAHOLE_VERSION > 129
+ 	help
+ 	  Calculate symbol versions from DWARF debugging information using
+ 	  gendwarfksyms. Requires DEBUG_INFO to be enabled.
+diff --git a/net/sched/sch_hfsc.c b/net/sched/sch_hfsc.c
+index 7986145a527c..5a7745170e84 100644
+--- a/net/sched/sch_hfsc.c
++++ b/net/sched/sch_hfsc.c
+@@ -175,6 +175,11 @@ struct hfsc_sched {
+ 
+ #define	HT_INFINITY	0xffffffffffffffffULL	/* infinite time value */
+ 
++static bool cl_in_el_or_vttree(struct hfsc_class *cl)
++{
++	return ((cl->cl_flags & HFSC_FSC) && cl->cl_nactive) ||
++		((cl->cl_flags & HFSC_RSC) && !RB_EMPTY_NODE(&cl->el_node));
++}
+ 
+ /*
+  * eligible tree holds backlogged classes being sorted by their eligible times.
+@@ -1040,6 +1045,8 @@ hfsc_change_class(struct Qdisc *sch, u32 classid, u32 parentid,
+ 	if (cl == NULL)
+ 		return -ENOBUFS;
+ 
++	RB_CLEAR_NODE(&cl->el_node);
++
+ 	err = tcf_block_get(&cl->block, &cl->filter_list, sch, extack);
+ 	if (err) {
+ 		kfree(cl);
+@@ -1572,7 +1579,7 @@ hfsc_enqueue(struct sk_buff *skb, struct Qdisc *sch, struct sk_buff **to_free)
+ 	sch->qstats.backlog += len;
+ 	sch->q.qlen++;
+ 
+-	if (first && !cl->cl_nactive) {
++	if (first && !cl_in_el_or_vttree(cl)) {
+ 		if (cl->cl_flags & HFSC_RSC)
+ 			init_ed(cl, len);
+ 		if (cl->cl_flags & HFSC_FSC)
+diff --git a/sound/pci/hda/patch_realtek.c b/sound/pci/hda/patch_realtek.c
+index 9e5c36ad8f52..3f09ceac08ad 100644
+--- a/sound/pci/hda/patch_realtek.c
++++ b/sound/pci/hda/patch_realtek.c
+@@ -6811,7 +6811,10 @@ static void alc256_fixup_chromebook(struct hda_codec *codec,
+ 
+ 	switch (action) {
+ 	case HDA_FIXUP_ACT_PRE_PROBE:
+-		spec->gen.suppress_auto_mute = 1;
++		if (codec->core.subsystem_id == 0x10280d76)
++			spec->gen.suppress_auto_mute = 0;
++		else
++			spec->gen.suppress_auto_mute = 1;
+ 		spec->gen.suppress_auto_mic = 1;
+ 		spec->en_3kpull_low = false;
+ 		break;
