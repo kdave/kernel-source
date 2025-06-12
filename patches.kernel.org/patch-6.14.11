@@ -1,0 +1,683 @@
+From: David Sterba <dsterba@suse.cz>
+Subject: Linux 6.14.11
+Patch-mainline: 6.14.11
+Git-commit: b9d5d463c216763cec719c04536ea9e14512cad4
+Git-commit: dc86041f8d31ab7937f779a4253c106c027c4d92
+Git-commit: 939ef528dea46d866f0124fee66843f831ba6670
+Git-commit: bd4849b1493c330bcbc62799f73368aebaf17bbe
+Git-commit: ce2fed22a02249e670f82f2cba8cee50f9cc3d99
+Git-commit: 0771bcbe2f6e5d5f263cf466efe571d2754a46da
+Git-commit: 4a7694f499cae5b83412c5281bf2c961f34f2ed6
+Git-commit: 80ed8ab8efa0d18c03968a2321154f10e2d1a2e3
+Git-commit: f6e5933ca1f91cb9f67051af348d23276d0a640d
+Git-commit: ed804d4adab072c1a69bf97b96418b49371d657e
+Git-commit: a14c0d2eb3f0b1836fdec22908b87ecffd2ac844
+Git-commit: fc60cde814bfba1d4002c88f02d845be5dc5d75a
+Git-commit: 838ff899d64030b43866cc0238a6b70f22292a82
+Git-commit: 4a047f2abc44fff24b353327487a5d6b284c4aa0
+Git-commit: 75f297e5a22da0d65f1caa41f019c4aba3f53e7c
+Git-commit: 0b49d9a910ba93cbeae7ec07cc8d31ead2573fc2
+Git-commit: a5336ada21b113a17cd95176741aaed3aa690d82
+Git-commit: 57082e0300d56e7aad1a874788aedd556028c90a
+Git-commit: 1fd85fd8b7baf1ff9336fb4fd26e94a3ae2e1bf1
+Git-commit: f8a02b6e4f1e723149e1b52c01ea89a79f567487
+Git-commit: 047c59cafd599bf726bccbdd514affc8b6d4cae8
+Git-commit: 2b291ad35e05eb13951e8fdd5894d87dff3ae5e8
+Git-commit: c8d01b8d843216beee6dec07c54dc20fb60d6c6a
+Git-commit: 5c512eb41b1d96aa47bf28f5af6ff6b5b521ee1f
+Git-commit: aa3679d9f34f2e153003b00eb424d9ce629cafc0
+
+Signed-off-by: David Sterba <dsterba@suse.cz>
+---
+diff --git a/Documentation/devicetree/bindings/phy/fsl,imx8mq-usb-phy.yaml b/Documentation/devicetree/bindings/phy/fsl,imx8mq-usb-phy.yaml
+index daee0c0fc915..c468207eb951 100644
+--- a/Documentation/devicetree/bindings/phy/fsl,imx8mq-usb-phy.yaml
++++ b/Documentation/devicetree/bindings/phy/fsl,imx8mq-usb-phy.yaml
+@@ -63,8 +63,7 @@ title: Freescale i.MX8MQ USB3 PHY
+   fsl,phy-tx-vboost-level-microvolt:
+     description:
+       Adjust the boosted transmit launch pk-pk differential amplitude
+-    minimum: 880
+-    maximum: 1120
++    enum: [844, 1008, 1156]
+ 
+   fsl,phy-comp-dis-tune-percent:
+     description:
+diff --git a/Documentation/devicetree/bindings/pwm/adi,axi-pwmgen.yaml b/Documentation/devicetree/bindings/pwm/adi,axi-pwmgen.yaml
+index 45e112d0efb4..5575c58357d6 100644
+--- a/Documentation/devicetree/bindings/pwm/adi,axi-pwmgen.yaml
++++ b/Documentation/devicetree/bindings/pwm/adi,axi-pwmgen.yaml
+@@ -30,11 +30,19 @@ title: Analog Devices AXI PWM generator
+     const: 3
+ 
+   clocks:
+-    maxItems: 1
++    minItems: 1
++    maxItems: 2
++
++  clock-names:
++    minItems: 1
++    items:
++      - const: axi
++      - const: ext
+ 
+ required:
+   - reg
+   - clocks
++  - clock-names
+ 
+ unevaluatedProperties: false
+ 
+@@ -43,6 +51,7 @@ unevaluatedProperties: false
+     pwm@44b00000 {
+         compatible = "adi,axi-pwmgen-2.00.a";
+         reg = <0x44b00000 0x1000>;
+-        clocks = <&spi_clk>;
++        clocks = <&fpga_clk>, <&spi_clk>;
++        clock-names = "axi", "ext";
+         #pwm-cells = <3>;
+     };
+diff --git a/Documentation/devicetree/bindings/usb/cypress,hx3.yaml b/Documentation/devicetree/bindings/usb/cypress,hx3.yaml
+index 1033b7a4b8f9..d6eac1213228 100644
+--- a/Documentation/devicetree/bindings/usb/cypress,hx3.yaml
++++ b/Documentation/devicetree/bindings/usb/cypress,hx3.yaml
+@@ -14,9 +14,22 @@ title: Cypress HX3 USB 3.0 hub controller family
+ 
+ properties:
+   compatible:
+-    enum:
+-      - usb4b4,6504
+-      - usb4b4,6506
++    oneOf:
++      - enum:
++          - usb4b4,6504
++          - usb4b4,6506
++      - items:
++          - enum:
++              - usb4b4,6500
++              - usb4b4,6508
++          - const: usb4b4,6504
++      - items:
++          - enum:
++              - usb4b4,6502
++              - usb4b4,6503
++              - usb4b4,6507
++              - usb4b4,650a
++          - const: usb4b4,6506
+ 
+   reg: true
+ 
+diff --git a/Documentation/firmware-guide/acpi/dsd/data-node-references.rst b/Documentation/firmware-guide/acpi/dsd/data-node-references.rst
+index 8d8b53e96bcf..ccb4b153e6f2 100644
+--- a/Documentation/firmware-guide/acpi/dsd/data-node-references.rst
++++ b/Documentation/firmware-guide/acpi/dsd/data-node-references.rst
+@@ -12,11 +12,14 @@ ACPI in general allows referring to device objects in the tree only.
+ Hierarchical data extension nodes may not be referred to directly, hence this
+ document defines a scheme to implement such references.
+ 
+-A reference consist of the device object name followed by one or more
+-hierarchical data extension [dsd-guide] keys. Specifically, the hierarchical
+-data extension node which is referred to by the key shall lie directly under
+-the parent object i.e. either the device object or another hierarchical data
+-extension node.
++A reference to a _DSD hierarchical data node is a string consisting of a
++device object reference followed by a dot (".") and a relative path to a data
++node object. Do not use non-string references as this will produce a copy of
++the hierarchical data node, not a reference!
++
++The hierarchical data extension node which is referred to shall be located
++directly under its parent object i.e. either the device object or another
++hierarchical data extension node [dsd-guide].
+ 
+ The keys in the hierarchical data nodes shall consist of the name of the node,
+ "@" character and the number of the node in hexadecimal notation (without pre-
+@@ -33,11 +36,9 @@ extension key.
+ Example
+ =======
+ 
+-In the ASL snippet below, the "reference" _DSD property contains a
+-device object reference to DEV0 and under that device object, a
+-hierarchical data extension key "node@1" referring to the NOD1 object
+-and lastly, a hierarchical data extension key "anothernode" referring to
+-the ANOD object which is also the final target node of the reference.
++In the ASL snippet below, the "reference" _DSD property contains a string
++reference to a hierarchical data extension node ANOD under DEV0 under the parent
++of DEV1. ANOD is also the final target node of the reference.
+ ::
+ 
+ 	Device (DEV0)
+@@ -76,10 +77,7 @@ the ANOD object which is also the final target node of the reference.
+ 	    Name (_DSD, Package () {
+ 		ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+ 		Package () {
+-		    Package () {
+-			"reference", Package () {
+-			    ^DEV0, "node@1", "anothernode"
+-			}
++		    Package () { "reference", "^DEV0.ANOD" }
+ 		    },
+ 		}
+ 	    })
+diff --git a/Documentation/firmware-guide/acpi/dsd/graph.rst b/Documentation/firmware-guide/acpi/dsd/graph.rst
+index b9dbfc73ed25..d6ae5ffa748c 100644
+--- a/Documentation/firmware-guide/acpi/dsd/graph.rst
++++ b/Documentation/firmware-guide/acpi/dsd/graph.rst
+@@ -66,12 +66,9 @@ of that port shall be zero. Similarly, if a port may only have a single
+ endpoint, the number of that endpoint shall be zero.
+ 
+ The endpoint reference uses property extension with "remote-endpoint" property
+-name followed by a reference in the same package. Such references consist of
+-the remote device reference, the first package entry of the port data extension
+-reference under the device and finally the first package entry of the endpoint
+-data extension reference under the port. Individual references thus appear as::
++name followed by a string reference in the same package. [data-node-ref]::
+ 
+-    Package() { device, "port@X", "endpoint@Y" }
++    "device.datanode"
+ 
+ In the above example, "X" is the number of the port and "Y" is the number of
+ the endpoint.
+@@ -109,7 +106,7 @@ remote endpoint and back from the referred remote endpoint node.
+ 		ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+ 		Package () {
+ 		    Package () { "reg", 0 },
+-		    Package () { "remote-endpoint", Package() { \_SB.PCI0.ISP, "port@4", "endpoint@0" } },
++		    Package () { "remote-endpoint", "\\_SB.PCI0.ISP.EP40" },
+ 		}
+ 	    })
+ 	}
+@@ -141,7 +138,7 @@ remote endpoint and back from the referred remote endpoint node.
+ 		ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+ 		Package () {
+ 		    Package () { "reg", 0 },
+-		    Package () { "remote-endpoint", Package () { \_SB.PCI0.I2C2.CAM0, "port@0", "endpoint@0" } },
++		    Package () { "remote-endpoint", "\\_SB.PCI0.I2C2.CAM0.EP00" },
+ 		}
+ 	    })
+ 	}
+diff --git a/Documentation/firmware-guide/acpi/dsd/leds.rst b/Documentation/firmware-guide/acpi/dsd/leds.rst
+index 93db592c93c7..a97cd07d49be 100644
+--- a/Documentation/firmware-guide/acpi/dsd/leds.rst
++++ b/Documentation/firmware-guide/acpi/dsd/leds.rst
+@@ -15,11 +15,6 @@ Referring to LEDs in Device tree is documented in [video-interfaces], in
+ "flash-leds" property documentation. In short, LEDs are directly referred to by
+ using phandles.
+ 
+-While Device tree allows referring to any node in the tree [devicetree], in
+-ACPI references are limited to device nodes only [acpi]. For this reason using
+-the same mechanism on ACPI is not possible. A mechanism to refer to non-device
+-ACPI nodes is documented in [data-node-ref].
+-
+ ACPI allows (as does DT) using integer arguments after the reference. A
+ combination of the LED driver device reference and an integer argument,
+ referring to the "reg" property of the relevant LED, is used to identify
+@@ -74,7 +69,7 @@ show below. Objects not relevant for LEDs or the references to them have been
+ 			Package () {
+ 				Package () {
+ 					"flash-leds",
+-					Package () { ^LED, "led@0", ^LED, "led@1" },
++					Package () { "^LED.LED0", "^LED.LED1" },
+ 				}
+ 			}
+ 		})
+diff --git a/Makefile b/Makefile
+index 0f3aad52b3de..48d2ce96398b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ # SPDX-License-Identifier: GPL-2.0
+ VERSION = 6
+ PATCHLEVEL = 14
+-SUBLEVEL = 10
++SUBLEVEL = 11
+ EXTRAVERSION =
+ NAME = Baby Opossum Posse
+ 
+diff --git a/drivers/android/binder.c b/drivers/android/binder.c
+index 5fc2c8ee61b1..6be0f7ac7213 100644
+--- a/drivers/android/binder.c
++++ b/drivers/android/binder.c
+@@ -79,6 +79,8 @@ static HLIST_HEAD(binder_deferred_list);
+ static DEFINE_MUTEX(binder_deferred_lock);
+ 
+ static HLIST_HEAD(binder_devices);
++static DEFINE_SPINLOCK(binder_devices_lock);
++
+ static HLIST_HEAD(binder_procs);
+ static DEFINE_MUTEX(binder_procs_lock);
+ 
+@@ -5244,6 +5246,7 @@ static void binder_free_proc(struct binder_proc *proc)
+ 			__func__, proc->outstanding_txns);
+ 	device = container_of(proc->context, struct binder_device, context);
+ 	if (refcount_dec_and_test(&device->ref)) {
++		binder_remove_device(device);
+ 		kfree(proc->context->name);
+ 		kfree(device);
+ 	}
+@@ -6929,7 +6932,16 @@ const struct binder_debugfs_entry binder_debugfs_entries[] = {
+ 
+ void binder_add_device(struct binder_device *device)
+ {
++	spin_lock(&binder_devices_lock);
+ 	hlist_add_head(&device->hlist, &binder_devices);
++	spin_unlock(&binder_devices_lock);
++}
++
++void binder_remove_device(struct binder_device *device)
++{
++	spin_lock(&binder_devices_lock);
++	hlist_del_init(&device->hlist);
++	spin_unlock(&binder_devices_lock);
+ }
+ 
+ static int __init init_binder_device(const char *name)
+@@ -6956,7 +6968,7 @@ static int __init init_binder_device(const char *name)
+ 		return ret;
+ 	}
+ 
+-	hlist_add_head(&binder_device->hlist, &binder_devices);
++	binder_add_device(binder_device);
+ 
+ 	return ret;
+ }
+@@ -7018,7 +7030,7 @@ static int __init binder_init(void)
+ err_init_binder_device_failed:
+ 	hlist_for_each_entry_safe(device, tmp, &binder_devices, hlist) {
+ 		misc_deregister(&device->miscdev);
+-		hlist_del(&device->hlist);
++		binder_remove_device(device);
+ 		kfree(device);
+ 	}
+ 
+diff --git a/drivers/android/binder_internal.h b/drivers/android/binder_internal.h
+index e4eb8357989c..c5d68c1d3780 100644
+--- a/drivers/android/binder_internal.h
++++ b/drivers/android/binder_internal.h
+@@ -584,9 +584,13 @@ struct binder_object {
+ /**
+  * Add a binder device to binder_devices
+  * @device: the new binder device to add to the global list
+- *
+- * Not reentrant as the list is not protected by any locks
+  */
+ void binder_add_device(struct binder_device *device);
+ 
++/**
++ * Remove a binder device to binder_devices
++ * @device: the binder device to remove from the global list
++ */
++void binder_remove_device(struct binder_device *device);
++
+ #endif /* _LINUX_BINDER_INTERNAL_H */
+diff --git a/drivers/android/binderfs.c b/drivers/android/binderfs.c
+index 94c6446604fc..44d430c4ebef 100644
+--- a/drivers/android/binderfs.c
++++ b/drivers/android/binderfs.c
+@@ -274,7 +274,7 @@ static void binderfs_evict_inode(struct inode *inode)
+ 	mutex_unlock(&binderfs_minors_mutex);
+ 
+ 	if (refcount_dec_and_test(&device->ref)) {
+-		hlist_del_init(&device->hlist);
++		binder_remove_device(device);
+ 		kfree(device->context.name);
+ 		kfree(device);
+ 	}
+diff --git a/drivers/bluetooth/hci_qca.c b/drivers/bluetooth/hci_qca.c
+index f2558506a02c..044433567959 100644
+--- a/drivers/bluetooth/hci_qca.c
++++ b/drivers/bluetooth/hci_qca.c
+@@ -2415,14 +2415,14 @@ static int qca_serdev_probe(struct serdev_device *serdev)
+ 
+ 		qcadev->bt_en = devm_gpiod_get_optional(&serdev->dev, "enable",
+ 					       GPIOD_OUT_LOW);
+-		if (IS_ERR(qcadev->bt_en) &&
+-		    (data->soc_type == QCA_WCN6750 ||
+-		     data->soc_type == QCA_WCN6855)) {
+-			dev_err(&serdev->dev, "failed to acquire BT_EN gpio\n");
+-			return PTR_ERR(qcadev->bt_en);
+-		}
++		if (IS_ERR(qcadev->bt_en))
++			return dev_err_probe(&serdev->dev,
++					     PTR_ERR(qcadev->bt_en),
++					     "failed to acquire BT_EN gpio\n");
+ 
+-		if (!qcadev->bt_en)
++		if (!qcadev->bt_en &&
++		    (data->soc_type == QCA_WCN6750 ||
++		     data->soc_type == QCA_WCN6855))
+ 			power_ctrl_enabled = false;
+ 
+ 		qcadev->sw_ctrl = devm_gpiod_get_optional(&serdev->dev, "swctrl",
+diff --git a/drivers/clk/samsung/clk-exynosautov920.c b/drivers/clk/samsung/clk-exynosautov920.c
+index 2a8bfd5d9abc..24f26e254c29 100644
+--- a/drivers/clk/samsung/clk-exynosautov920.c
++++ b/drivers/clk/samsung/clk-exynosautov920.c
+@@ -1393,7 +1393,7 @@ static const unsigned long hsi1_clk_regs[] __initconst = {
+ /* List of parent clocks for Muxes in CMU_HSI1 */
+ PNAME(mout_hsi1_mmc_card_user_p) = {"oscclk", "dout_clkcmu_hsi1_mmc_card"};
+ PNAME(mout_hsi1_noc_user_p) = { "oscclk", "dout_clkcmu_hsi1_noc" };
+-PNAME(mout_hsi1_usbdrd_user_p) = { "oscclk", "mout_clkcmu_hsi1_usbdrd" };
++PNAME(mout_hsi1_usbdrd_user_p) = { "oscclk", "dout_clkcmu_hsi1_usbdrd" };
+ PNAME(mout_hsi1_usbdrd_p) = { "dout_tcxo_div2", "mout_hsi1_usbdrd_user" };
+ 
+ static const struct samsung_mux_clock hsi1_mux_clks[] __initconst = {
+diff --git a/drivers/cpufreq/acpi-cpufreq.c b/drivers/cpufreq/acpi-cpufreq.c
+index 453b629d3de6..5f5586a579d5 100644
+--- a/drivers/cpufreq/acpi-cpufreq.c
++++ b/drivers/cpufreq/acpi-cpufreq.c
+@@ -660,7 +660,7 @@ static u64 get_max_boost_ratio(unsigned int cpu, u64 *nominal_freq)
+ 	nominal_perf = perf_caps.nominal_perf;
+ 
+ 	if (nominal_freq)
+-		*nominal_freq = perf_caps.nominal_freq;
++		*nominal_freq = perf_caps.nominal_freq * 1000;
+ 
+ 	if (!highest_perf || !nominal_perf) {
+ 		pr_debug("CPU%d: highest or nominal performance missing\n", cpu);
+diff --git a/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c b/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c
+index 1a7bfc548d70..4801dcde2cb3 100644
+--- a/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c
++++ b/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c
+@@ -670,21 +670,15 @@ static void dm_crtc_high_irq(void *interrupt_params)
+ 	spin_lock_irqsave(&adev_to_drm(adev)->event_lock, flags);
+ 
+ 	if (acrtc->dm_irq_params.stream &&
+-		acrtc->dm_irq_params.vrr_params.supported) {
+-		bool replay_en = acrtc->dm_irq_params.stream->link->replay_settings.replay_feature_enabled;
+-		bool psr_en = acrtc->dm_irq_params.stream->link->psr_settings.psr_feature_enabled;
+-		bool fs_active_var_en = acrtc->dm_irq_params.freesync_config.state == VRR_STATE_ACTIVE_VARIABLE;
+-
++	    acrtc->dm_irq_params.vrr_params.supported &&
++	    acrtc->dm_irq_params.freesync_config.state ==
++		    VRR_STATE_ACTIVE_VARIABLE) {
+ 		mod_freesync_handle_v_update(adev->dm.freesync_module,
+ 					     acrtc->dm_irq_params.stream,
+ 					     &acrtc->dm_irq_params.vrr_params);
+ 
+-		/* update vmin_vmax only if freesync is enabled, or only if PSR and REPLAY are disabled */
+-		if (fs_active_var_en || (!fs_active_var_en && !replay_en && !psr_en)) {
+-			dc_stream_adjust_vmin_vmax(adev->dm.dc,
+-					acrtc->dm_irq_params.stream,
+-					&acrtc->dm_irq_params.vrr_params.adjust);
+-		}
++		dc_stream_adjust_vmin_vmax(adev->dm.dc, acrtc->dm_irq_params.stream,
++					   &acrtc->dm_irq_params.vrr_params.adjust);
+ 	}
+ 
+ 	/*
+diff --git a/drivers/nvmem/Kconfig b/drivers/nvmem/Kconfig
+index 8671b7c974b9..eceb3cdb421f 100644
+--- a/drivers/nvmem/Kconfig
++++ b/drivers/nvmem/Kconfig
+@@ -260,6 +260,7 @@ config NVMEM_RCAR_EFUSE
+ config NVMEM_RMEM
+ 	tristate "Reserved Memory Based Driver Support"
+ 	depends on HAS_IOMEM
++	select CRC32
+ 	help
+ 	  This driver maps reserved memory into an nvmem device. It might be
+ 	  useful to expose information left by firmware in memory.
+diff --git a/drivers/pinctrl/mvebu/pinctrl-armada-37xx.c b/drivers/pinctrl/mvebu/pinctrl-armada-37xx.c
+index 335744ac8310..79f9c08e5039 100644
+--- a/drivers/pinctrl/mvebu/pinctrl-armada-37xx.c
++++ b/drivers/pinctrl/mvebu/pinctrl-armada-37xx.c
+@@ -417,20 +417,22 @@ static int armada_37xx_gpio_direction_output(struct gpio_chip *chip,
+ 					     unsigned int offset, int value)
+ {
+ 	struct armada_37xx_pinctrl *info = gpiochip_get_data(chip);
+-	unsigned int reg = OUTPUT_EN;
++	unsigned int en_offset = offset;
++	unsigned int reg = OUTPUT_VAL;
+ 	unsigned int mask, val, ret;
+ 
+ 	armada_37xx_update_reg(&reg, &offset);
+ 	mask = BIT(offset);
++	val = value ? mask : 0;
+ 
+-	ret = regmap_update_bits(info->regmap, reg, mask, mask);
+-
++	ret = regmap_update_bits(info->regmap, reg, mask, val);
+ 	if (ret)
+ 		return ret;
+ 
+-	reg = OUTPUT_VAL;
+-	val = value ? mask : 0;
+-	regmap_update_bits(info->regmap, reg, mask, val);
++	reg = OUTPUT_EN;
++	armada_37xx_update_reg(&reg, &en_offset);
++
++	regmap_update_bits(info->regmap, reg, mask, mask);
+ 
+ 	return 0;
+ }
+diff --git a/drivers/rtc/class.c b/drivers/rtc/class.c
+index e31fa0ad127e..a0afdeaac270 100644
+--- a/drivers/rtc/class.c
++++ b/drivers/rtc/class.c
+@@ -327,7 +327,7 @@ static void rtc_device_get_offset(struct rtc_device *rtc)
+ 	 *
+ 	 * Otherwise the offset seconds should be 0.
+ 	 */
+-	if (rtc->start_secs > rtc->range_max ||
++	if ((rtc->start_secs >= 0 && rtc->start_secs > rtc->range_max) ||
+ 	    rtc->start_secs + range_secs - 1 < rtc->range_min)
+ 		rtc->offset_secs = rtc->start_secs - rtc->range_min;
+ 	else if (rtc->start_secs > rtc->range_min)
+diff --git a/drivers/rtc/lib.c b/drivers/rtc/lib.c
+index fe361652727a..13b5b1f20465 100644
+--- a/drivers/rtc/lib.c
++++ b/drivers/rtc/lib.c
+@@ -46,24 +46,38 @@ EXPORT_SYMBOL(rtc_year_days);
+  * rtc_time64_to_tm - converts time64_t to rtc_time.
+  *
+  * @time:	The number of seconds since 01-01-1970 00:00:00.
+- *		(Must be positive.)
++ *		Works for values since at least 1900
+  * @tm:		Pointer to the struct rtc_time.
+  */
+ void rtc_time64_to_tm(time64_t time, struct rtc_time *tm)
+ {
+-	unsigned int secs;
+-	int days;
++	int days, secs;
+ 
+ 	u64 u64tmp;
+ 	u32 u32tmp, udays, century, day_of_century, year_of_century, year,
+ 		day_of_year, month, day;
+ 	bool is_Jan_or_Feb, is_leap_year;
+ 
+-	/* time must be positive */
++	/*
++	 * Get days and seconds while preserving the sign to
++	 * handle negative time values (dates before 1970-01-01)
++	 */
+ 	days = div_s64_rem(time, 86400, &secs);
+ 
++	/*
++	 * We need 0 <= secs < 86400 which isn't given for negative
++	 * values of time. Fixup accordingly.
++	 */
++	if (secs < 0) {
++		days -= 1;
++		secs += 86400;
++	}
++
+ 	/* day of the week, 1970-01-01 was a Thursday */
+ 	tm->tm_wday = (days + 4) % 7;
++	/* Ensure tm_wday is always positive */
++	if (tm->tm_wday < 0)
++		tm->tm_wday += 7;
+ 
+ 	/*
+ 	 * The following algorithm is, basically, Proposition 6.3 of Neri
+@@ -93,7 +107,7 @@ void rtc_time64_to_tm(time64_t time, struct rtc_time *tm)
+ 	 * thus, is slightly different from [1].
+ 	 */
+ 
+-	udays		= ((u32) days) + 719468;
++	udays		= days + 719468;
+ 
+ 	u32tmp		= 4 * udays + 3;
+ 	century		= u32tmp / 146097;
+diff --git a/drivers/thunderbolt/ctl.c b/drivers/thunderbolt/ctl.c
+index dc1f456736dc..2ec6c9e477d0 100644
+--- a/drivers/thunderbolt/ctl.c
++++ b/drivers/thunderbolt/ctl.c
+@@ -151,6 +151,11 @@ static void tb_cfg_request_dequeue(struct tb_cfg_request *req)
+ 	struct tb_ctl *ctl = req->ctl;
+ 
+ 	mutex_lock(&ctl->request_queue_lock);
++	if (!test_bit(TB_CFG_REQUEST_ACTIVE, &req->flags)) {
++		mutex_unlock(&ctl->request_queue_lock);
++		return;
++	}
++
+ 	list_del(&req->list);
+ 	clear_bit(TB_CFG_REQUEST_ACTIVE, &req->flags);
+ 	if (test_bit(TB_CFG_REQUEST_CANCELED, &req->flags))
+diff --git a/drivers/tty/serial/jsm/jsm_tty.c b/drivers/tty/serial/jsm/jsm_tty.c
+index ce0fef7e2c66..be2f130696b3 100644
+--- a/drivers/tty/serial/jsm/jsm_tty.c
++++ b/drivers/tty/serial/jsm/jsm_tty.c
+@@ -451,6 +451,7 @@ int jsm_uart_port_init(struct jsm_board *brd)
+ 		if (!brd->channels[i])
+ 			continue;
+ 
++		brd->channels[i]->uart_port.dev = &brd->pci_dev->dev;
+ 		brd->channels[i]->uart_port.irq = brd->irq;
+ 		brd->channels[i]->uart_port.uartclk = 14745600;
+ 		brd->channels[i]->uart_port.type = PORT_JSM;
+diff --git a/drivers/usb/class/usbtmc.c b/drivers/usb/class/usbtmc.c
+index 740d2d2b19fb..66f3d9324ba2 100644
+--- a/drivers/usb/class/usbtmc.c
++++ b/drivers/usb/class/usbtmc.c
+@@ -483,6 +483,7 @@ static int usbtmc_get_stb(struct usbtmc_file_data *file_data, __u8 *stb)
+ 	u8 tag;
+ 	int rv;
+ 	long wait_rv;
++	unsigned long expire;
+ 
+ 	dev_dbg(dev, "Enter ioctl_read_stb iin_ep_present: %d\n",
+ 		data->iin_ep_present);
+@@ -512,10 +513,11 @@ static int usbtmc_get_stb(struct usbtmc_file_data *file_data, __u8 *stb)
+ 	}
+ 
+ 	if (data->iin_ep_present) {
++		expire = msecs_to_jiffies(file_data->timeout);
+ 		wait_rv = wait_event_interruptible_timeout(
+ 			data->waitq,
+ 			atomic_read(&data->iin_data_valid) != 0,
+-			file_data->timeout);
++			expire);
+ 		if (wait_rv < 0) {
+ 			dev_dbg(dev, "wait interrupted %ld\n", wait_rv);
+ 			rv = wait_rv;
+diff --git a/drivers/usb/core/quirks.c b/drivers/usb/core/quirks.c
+index 36d3df7d040c..53d68d20fb62 100644
+--- a/drivers/usb/core/quirks.c
++++ b/drivers/usb/core/quirks.c
+@@ -372,6 +372,9 @@ static const struct usb_device_id usb_quirk_list[] = {
+ 	/* SanDisk Corp. SanDisk 3.2Gen1 */
+ 	{ USB_DEVICE(0x0781, 0x55a3), .driver_info = USB_QUIRK_DELAY_INIT },
+ 
++	/* SanDisk Extreme 55AE */
++	{ USB_DEVICE(0x0781, 0x55ae), .driver_info = USB_QUIRK_NO_LPM },
++
+ 	/* Realforce 87U Keyboard */
+ 	{ USB_DEVICE(0x0853, 0x011b), .driver_info = USB_QUIRK_NO_LPM },
+ 
+diff --git a/drivers/usb/serial/pl2303.c b/drivers/usb/serial/pl2303.c
+index 010688dd9e49..22579d0d8ab8 100644
+--- a/drivers/usb/serial/pl2303.c
++++ b/drivers/usb/serial/pl2303.c
+@@ -458,6 +458,8 @@ static int pl2303_detect_type(struct usb_serial *serial)
+ 		case 0x605:
+ 		case 0x700:	/* GR */
+ 		case 0x705:
++		case 0x905:	/* GT-2AB */
++		case 0x1005:	/* GC-Q20 */
+ 			return TYPE_HXN;
+ 		}
+ 		break;
+diff --git a/drivers/usb/storage/unusual_uas.h b/drivers/usb/storage/unusual_uas.h
+index d460d71b4257..1477e31d7763 100644
+--- a/drivers/usb/storage/unusual_uas.h
++++ b/drivers/usb/storage/unusual_uas.h
+@@ -52,6 +52,13 @@ UNUSUAL_DEV(0x059f, 0x1061, 0x0000, 0x9999,
+ 		USB_SC_DEVICE, USB_PR_DEVICE, NULL,
+ 		US_FL_NO_REPORT_OPCODES | US_FL_NO_SAME),
+ 
++/* Reported-by: Zhihong Zhou <zhouzhihong@greatwall.com.cn> */
++UNUSUAL_DEV(0x0781, 0x55e8, 0x0000, 0x9999,
++		"SanDisk",
++		"",
++		USB_SC_DEVICE, USB_PR_DEVICE, NULL,
++		US_FL_IGNORE_UAS),
++
+ /* Reported-by: Hongling Zeng <zenghongling@kylinos.cn> */
+ UNUSUAL_DEV(0x090c, 0x2000, 0x0000, 0x9999,
+ 		"Hiksemi",
+diff --git a/drivers/usb/typec/ucsi/ucsi.h b/drivers/usb/typec/ucsi/ucsi.h
+index 99d0d76f738e..753888cf9f89 100644
+--- a/drivers/usb/typec/ucsi/ucsi.h
++++ b/drivers/usb/typec/ucsi/ucsi.h
+@@ -432,7 +432,7 @@ struct ucsi_debugfs_entry {
+ 		u64 low;
+ 		u64 high;
+ 	} response;
+-	u32 status;
++	int status;
+ 	struct dentry *dentry;
+ };
+ 
+diff --git a/fs/orangefs/inode.c b/fs/orangefs/inode.c
+index 63d7c1ca0dfd..a244f397a68c 100644
+--- a/fs/orangefs/inode.c
++++ b/fs/orangefs/inode.c
+@@ -32,12 +32,13 @@ static int orangefs_writepage_locked(struct page *page,
+ 	len = i_size_read(inode);
+ 	if (PagePrivate(page)) {
+ 		wr = (struct orangefs_write_range *)page_private(page);
+-		WARN_ON(wr->pos >= len);
+ 		off = wr->pos;
+-		if (off + wr->len > len)
++		if ((off + wr->len > len) && (off <= len))
+ 			wlen = len - off;
+ 		else
+ 			wlen = wr->len;
++		if (wlen == 0)
++			wlen = wr->len;
+ 	} else {
+ 		WARN_ON(1);
+ 		off = page_offset(page);
+@@ -46,8 +47,6 @@ static int orangefs_writepage_locked(struct page *page,
+ 		else
+ 			wlen = PAGE_SIZE;
+ 	}
+-	/* Should've been handled in orangefs_invalidate_folio. */
+-	WARN_ON(off == len || off + wlen > len);
+ 
+ 	WARN_ON(wlen == 0);
+ 	bvec_set_page(&bv, page, wlen, off % PAGE_SIZE);
+@@ -340,6 +339,8 @@ static int orangefs_write_begin(struct file *file,
+ 			wr->len += len;
+ 			goto okay;
+ 		} else {
++			wr->pos = pos;
++			wr->len = len;
+ 			ret = orangefs_launder_folio(folio);
+ 			if (ret)
+ 				return ret;
+diff --git a/kernel/trace/trace.c b/kernel/trace/trace.c
+index b1738563bdc3..00592fc88e61 100644
+--- a/kernel/trace/trace.c
++++ b/kernel/trace/trace.c
+@@ -6679,7 +6679,7 @@ static ssize_t tracing_splice_read_pipe(struct file *filp,
+ 		ret = trace_seq_to_buffer(&iter->seq,
+ 					  page_address(spd.pages[i]),
+ 					  min((size_t)trace_seq_used(&iter->seq),
+-						  PAGE_SIZE));
++						  (size_t)PAGE_SIZE));
+ 		if (ret < 0) {
+ 			__free_page(spd.pages[i]);
+ 			break;
